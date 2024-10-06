@@ -3556,6 +3556,196 @@
 				)
 			)
 		)
+		(symbol "common:harwin_2p_2-54_jumper_closed"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "common:harwin_2p_2-54_jumper_closed"
+				(at 3.81 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://cdn.harwin.com/pdfs/M20-999.pdf"
+				(at 35.56 -7.493 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "  Connector Header Through Hole 2 position 0.100\" (2.54mm)"
+				(at 35.56 -3.683 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Harwin"
+				(at 35.56 1.397 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" "M20-9990246"
+				(at 35.56 1.397 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Distributor" "DigiKey"
+				(at 35.56 1.397 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Distributor Part Number" "952-2262-ND"
+				(at 35.56 -7.493 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Distributor Link" "https://www.digikey.ca/en/products/detail/harwin-inc/M20-9990246/3728226"
+				(at 35.56 -3.683 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "jumper"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "USB*C*Receptacle*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "harwin_2p_2-54_jumper_closed_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "harwin_2p_2-54_jumper_closed_0_1"
+				(arc
+					(start 1.524 0.254)
+					(mid 0 0.762)
+					(end -1.524 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "harwin_2p_2-54_jumper_closed_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "common:molex_2171750001_usb_c_6p"
 			(pin_names
 				(offset 1.016)
@@ -7749,6 +7939,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 187.96) (xy 163.83 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "089f38ca-eba1-426f-aff5-d386322334d3")
+	)
+	(wire
+		(pts
 			(xy 147.32 167.64) (xy 147.32 168.91)
 		)
 		(stroke
@@ -8819,7 +9019,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 187.96) (xy 162.56 187.96)
+			(xy 144.78 187.96) (xy 152.4 187.96)
 		)
 		(stroke
 			(width 0)
@@ -9079,7 +9279,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 194.31) (xy 161.29 193.04)
+			(xy 162.56 194.31) (xy 162.56 193.04)
 		)
 		(stroke
 			(width 0)
@@ -10379,7 +10579,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 193.04) (xy 162.56 193.04)
+			(xy 162.56 193.04) (xy 163.83 193.04)
 		)
 		(stroke
 			(width 0)
@@ -11178,7 +11378,7 @@
 		(uuid "68f9876d-e7ca-4a91-b7ae-b3ade7952ef1")
 	)
 	(label "BUZZER"
-		(at 154.94 187.96 0)
+		(at 144.78 187.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12909,7 +13109,7 @@
 	)
 	(symbol
 		(lib_id "Device:Buzzer")
-		(at 165.1 190.5 0)
+		(at 166.37 190.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12918,7 +13118,7 @@
 		(fields_autoplaced yes)
 		(uuid "248c11a5-8767-4479-89c7-35e7eed764b8")
 		(property "Reference" "BZ1"
-			(at 168.91 189.2299 0)
+			(at 170.18 189.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12927,7 +13127,7 @@
 			)
 		)
 		(property "Value" "Buzzer"
-			(at 168.91 191.7699 0)
+			(at 170.18 191.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12936,7 +13136,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 164.465 187.96 90)
+			(at 165.735 187.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12945,7 +13145,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 164.465 187.96 90)
+			(at 165.735 187.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12954,7 +13154,7 @@
 			)
 		)
 		(property "Description" "Buzzer, polarized"
-			(at 165.1 190.5 0)
+			(at 166.37 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15154,6 +15354,119 @@
 			(project "nerve_ada_board"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "common:harwin_2p_2-54_jumper_closed")
+		(at 157.48 187.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67ddeb7e-d170-44bf-bc26-2046fd88cc3f")
+		(property "Reference" "J8"
+			(at 157.48 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 157.48 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "common:harwin_2p_2-54_jumper_closed"
+			(at 161.29 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn.harwin.com/pdfs/M20-999.pdf"
+			(at 193.04 195.453 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector Header Through Hole 2 position 0.100\" (2.54mm)"
+			(at 193.04 191.643 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Harwin"
+			(at 193.04 186.563 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "M20-9990246"
+			(at 193.04 186.563 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "DigiKey"
+			(at 193.04 186.563 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Part Number" "952-2262-ND"
+			(at 193.04 195.453 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.ca/en/products/detail/harwin-inc/M20-9990246/3728226"
+			(at 193.04 191.643 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "691ebfcf-d91e-4261-90fc-14ea7d1fb872")
+		)
+		(pin "2"
+			(uuid "53da509d-5268-41d2-9232-a17d4a271736")
+		)
+		(instances
+			(project ""
+				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -20247,7 +20560,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 161.29 194.31 0)
+		(at 162.56 194.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20256,7 +20569,7 @@
 		(fields_autoplaced yes)
 		(uuid "fe038a00-4f32-4b61-b448-eff006f9bf52")
 		(property "Reference" "#PWR057"
-			(at 161.29 200.66 0)
+			(at 162.56 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20265,7 +20578,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 161.29 199.39 0)
+			(at 162.56 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20274,7 +20587,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 161.29 194.31 0)
+			(at 162.56 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20283,7 +20596,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 194.31 0)
+			(at 162.56 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20292,7 +20605,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 161.29 194.31 0)
+			(at 162.56 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
