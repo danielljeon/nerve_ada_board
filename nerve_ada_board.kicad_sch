@@ -2509,7 +2509,7 @@
 					(hide yes)
 				)
 			)
-			(property "Distributor" ""
+			(property "Distributor" "DigiKey"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2518,7 +2518,7 @@
 					(hide yes)
 				)
 			)
-			(property "Distributor Part Number" ""
+			(property "Distributor Part Number" "1528-4682-ND"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2527,7 +2527,7 @@
 					(hide yes)
 				)
 			)
-			(property "Distributor Link" ""
+			(property "Distributor Link" "https://www.digikey.ca/en/products/detail/adafruit-industries-llc/4682/12822319?s=N4IgTCBcDaICwDYAcYAEBDAJugZgJwFcBLAFxAF0BfIA"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2787,7 +2787,7 @@
 					(hide yes)
 				)
 			)
-			(property "Distributor" ""
+			(property "Distributor" "DigiKey"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2796,7 +2796,7 @@
 					(hide yes)
 				)
 			)
-			(property "Distributor Part Number" ""
+			(property "Distributor Part Number" "1528-4754-ND"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2805,7 +2805,7 @@
 					(hide yes)
 				)
 			)
-			(property "Distributor Link" ""
+			(property "Distributor Link" "https://www.digikey.ca/en/products/detail/adafruit-industries-llc/4754/13426653?s=N4IgTCBcDaIIYBM4DMBOBXAlgFwAQBYB2AVnxAF0BfIA"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3119,7 +3119,7 @@
 					(hide yes)
 				)
 			)
-			(property "Distributor" ""
+			(property "Distributor" "DigiKey"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3128,7 +3128,7 @@
 					(hide yes)
 				)
 			)
-			(property "Distributor Part Number" ""
+			(property "Distributor Part Number" "1528-4816-ND"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3137,7 +3137,7 @@
 					(hide yes)
 				)
 			)
-			(property "Distributor Link" ""
+			(property "Distributor Link" "https://www.digikey.ca/en/products/detail/adafruit-industries-llc/4816/13543385?s=N4IgTCBcDaIIYBM4DMBOBXAlgFwAQBYAOARgDYQBdAXyA"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3379,7 +3379,7 @@
 					(hide yes)
 				)
 			)
-			(property "Distributor" ""
+			(property "Distributor" "DigiKey"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3388,7 +3388,7 @@
 					(hide yes)
 				)
 			)
-			(property "Distributor Part Number" ""
+			(property "Distributor Part Number" "1528-5708-ND"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3397,7 +3397,7 @@
 					(hide yes)
 				)
 			)
-			(property "Distributor Link" ""
+			(property "Distributor Link" "https://www.digikey.ca/en/products/detail/adafruit-industries-llc/5708/18716420?s=N4IgTCBcDaIIYBM4DMBOBXAlgFwAQFYB2ABgA4QBdAXyA"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3983,7 +3983,7 @@
 					(hide yes)
 				)
 			)
-			(property "Distributor" ""
+			(property "Distributor" "DigiKey"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3992,7 +3992,7 @@
 					(hide yes)
 				)
 			)
-			(property "Distributor Part Number" ""
+			(property "Distributor Part Number" "602-1301-ND"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4001,7 +4001,7 @@
 					(hide yes)
 				)
 			)
-			(property "Distributor Link" ""
+			(property "Distributor Link" "https://www.digikey.ca/en/products/detail/digi/XBP9B-DMWT-002/3594159?s=N4IgTCBcDaIBoCEAKBOBBaAIgWQOoBV0AGIiAXQF8g"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4887,7 +4887,7 @@
 					(hide yes)
 				)
 			)
-			(property "Distributor" ""
+			(property "Distributor" "DigiKey"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4896,7 +4896,7 @@
 					(hide yes)
 				)
 			)
-			(property "Distributor Part Number" ""
+			(property "Distributor Part Number" "497-15376-ND"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4905,7 +4905,7 @@
 					(hide yes)
 				)
 			)
-			(property "Distributor Link" ""
+			(property "Distributor Link" "https://www.digikey.ca/en/products/detail/stmicroelectronics/STM32F446RET6/5175962"
 				(at 0 0 0)
 				(effects
 					(font
@@ -6807,7 +6807,7 @@
 					(hide yes)
 				)
 			)
-			(property "Distributor" ""
+			(property "Distributor" "DigiKey"
 				(at 0 0 0)
 				(effects
 					(font
@@ -6816,7 +6816,7 @@
 					(hide yes)
 				)
 			)
-			(property "Distributor Part Number" ""
+			(property "Distributor Part Number" "672-SAM-M10Q-00BCT-ND"
 				(at 0 0 0)
 				(effects
 					(font
@@ -6825,7 +6825,7 @@
 					(hide yes)
 				)
 			)
-			(property "Distributor Link" ""
+			(property "Distributor Link" "https://www.digikey.ca/en/products/detail/u-blox/SAM-M10Q-00B/16672678?s=N4IgTCBcDaIMoEECyBaJBGADARRAXQF8g"
 				(at 0 0 0)
 				(effects
 					(font
@@ -13049,7 +13049,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" ""
+		(property "Distributor" "DigiKey"
 			(at 193.04 104.14 0)
 			(effects
 				(font
@@ -13058,7 +13058,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Part Number" ""
+		(property "Distributor Part Number" "1528-4816-ND"
 			(at 193.04 104.14 0)
 			(effects
 				(font
@@ -13067,7 +13067,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.ca/en/products/detail/adafruit-industries-llc/4816/13543385?s=N4IgTCBcDaIIYBM4DMBOBXAlgFwAQBYAOARgDYQBdAXyA"
 			(at 193.04 104.14 0)
 			(effects
 				(font
@@ -14326,7 +14326,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" ""
+		(property "Distributor" "DigiKey"
 			(at 200.66 149.86 0)
 			(effects
 				(font
@@ -14335,7 +14335,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Part Number" ""
+		(property "Distributor Part Number" "1528-5708-ND"
 			(at 200.66 149.86 0)
 			(effects
 				(font
@@ -14344,7 +14344,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.ca/en/products/detail/adafruit-industries-llc/5708/18716420?s=N4IgTCBcDaIIYBM4DMBOBXAlgFwAQFYB2ABgA4QBdAXyA"
 			(at 200.66 149.86 0)
 			(effects
 				(font
@@ -14925,7 +14925,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" ""
+		(property "Distributor" "DigiKey"
 			(at 147.32 149.86 0)
 			(effects
 				(font
@@ -14934,7 +14934,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Part Number" ""
+		(property "Distributor Part Number" "672-SAM-M10Q-00BCT-ND"
 			(at 147.32 149.86 0)
 			(effects
 				(font
@@ -14943,7 +14943,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.ca/en/products/detail/u-blox/SAM-M10Q-00B/16672678?s=N4IgTCBcDaIMoEECyBaJBGADARRAXQF8g"
 			(at 147.32 149.86 0)
 			(effects
 				(font
@@ -16712,7 +16712,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" ""
+		(property "Distributor" "DigiKey"
 			(at 251.46 149.86 0)
 			(effects
 				(font
@@ -16721,7 +16721,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Part Number" ""
+		(property "Distributor Part Number" "1528-5708-ND"
 			(at 251.46 149.86 0)
 			(effects
 				(font
@@ -16730,7 +16730,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.ca/en/products/detail/adafruit-industries-llc/5708/18716420?s=N4IgTCBcDaIIYBM4DMBOBXAlgFwAQFYB2ABgA4QBdAXyA"
 			(at 251.46 149.86 0)
 			(effects
 				(font
@@ -17529,7 +17529,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" ""
+		(property "Distributor" "DigiKey"
 			(at 76.2 97.79 0)
 			(effects
 				(font
@@ -17538,7 +17538,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Part Number" ""
+		(property "Distributor Part Number" "497-15376-ND"
 			(at 76.2 97.79 0)
 			(effects
 				(font
@@ -17547,7 +17547,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.ca/en/products/detail/stmicroelectronics/STM32F446RET6/5175962"
 			(at 76.2 97.79 0)
 			(effects
 				(font
@@ -19254,7 +19254,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" ""
+		(property "Distributor" "DigiKey"
 			(at 190.5 30.48 0)
 			(effects
 				(font
@@ -19263,7 +19263,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Part Number" ""
+		(property "Distributor Part Number" "1528-4682-ND"
 			(at 190.5 30.48 0)
 			(effects
 				(font
@@ -19272,7 +19272,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.ca/en/products/detail/adafruit-industries-llc/4682/12822319?s=N4IgTCBcDaICwDYAcYAEBDAJugZgJwFcBLAFxAF0BfIA"
 			(at 190.5 30.48 0)
 			(effects
 				(font
@@ -19389,7 +19389,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" ""
+		(property "Distributor" "DigiKey"
 			(at 142.24 104.14 0)
 			(effects
 				(font
@@ -19398,7 +19398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Part Number" ""
+		(property "Distributor Part Number" "1528-4754-ND"
 			(at 142.24 104.14 0)
 			(effects
 				(font
@@ -19407,7 +19407,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.ca/en/products/detail/adafruit-industries-llc/4754/13426653?s=N4IgTCBcDaIIYBM4DMBOBXAlgFwAQBYB2AVnxAF0BfIA"
 			(at 142.24 104.14 0)
 			(effects
 				(font
@@ -19878,7 +19878,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" ""
+		(property "Distributor" "DigiKey"
 			(at 247.65 104.14 0)
 			(effects
 				(font
@@ -19887,7 +19887,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Part Number" ""
+		(property "Distributor Part Number" "602-1301-ND"
 			(at 247.65 104.14 0)
 			(effects
 				(font
@@ -19896,7 +19896,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.ca/en/products/detail/digi/XBP9B-DMWT-002/3594159?s=N4IgTCBcDaIBoCEAKBOBBaAIgWQOoBV0AGIiAXQF8g"
 			(at 247.65 104.14 0)
 			(effects
 				(font
