@@ -8069,7 +8069,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 27.94) (xy 175.26 27.94)
+			(xy 166.37 30.48) (xy 175.26 30.48)
 		)
 		(stroke
 			(width 0)
@@ -8399,7 +8399,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 34.29) (xy 215.9 34.29)
+			(xy 205.74 36.83) (xy 215.9 36.83)
 		)
 		(stroke
 			(width 0)
@@ -8429,7 +8429,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 24.13) (xy 215.9 24.13)
+			(xy 205.74 26.67) (xy 215.9 26.67)
 		)
 		(stroke
 			(width 0)
@@ -8469,7 +8469,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 36.83) (xy 175.26 36.83)
+			(xy 166.37 39.37) (xy 175.26 39.37)
 		)
 		(stroke
 			(width 0)
@@ -8929,7 +8929,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 17.78) (xy 187.96 19.05)
+			(xy 187.96 17.78) (xy 187.96 21.59)
 		)
 		(stroke
 			(width 0)
@@ -9759,7 +9759,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 36.83) (xy 215.9 36.83)
+			(xy 205.74 39.37) (xy 215.9 39.37)
 		)
 		(stroke
 			(width 0)
@@ -9799,7 +9799,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 31.75) (xy 215.9 31.75)
+			(xy 205.74 34.29) (xy 215.9 34.29)
 		)
 		(stroke
 			(width 0)
@@ -10519,7 +10519,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 27.94) (xy 215.9 27.94)
+			(xy 205.74 30.48) (xy 215.9 30.48)
 		)
 		(stroke
 			(width 0)
@@ -11029,7 +11029,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 41.91) (xy 190.5 43.18)
+			(xy 190.5 44.45) (xy 190.5 45.72)
 		)
 		(stroke
 			(width 0)
@@ -11285,7 +11285,7 @@
 		(uuid "1fe4c4f2-cdc8-4512-a0b4-fdb5a01f7805")
 	)
 	(label "SDIO_DET"
-		(at 215.9 24.13 180)
+		(at 215.9 26.67 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11363,7 +11363,7 @@
 		(uuid "2cdac469-ee8c-4fd8-a227-e5828bb6e300")
 	)
 	(label "SDIO_D1"
-		(at 215.9 34.29 180)
+		(at 215.9 36.83 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11397,7 +11397,7 @@
 		(uuid "32df879e-3efd-4d7f-916f-a08447fdc16e")
 	)
 	(label "SDIO_D3"
-		(at 166.37 36.83 0)
+		(at 166.37 39.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11552,7 +11552,7 @@
 		(uuid "5452b09b-e986-48ae-8a37-3e21dc231d77")
 	)
 	(label "SDIO_CMD"
-		(at 215.9 27.94 180)
+		(at 215.9 30.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11665,7 +11665,7 @@
 		(uuid "6580c409-9d84-4331-99cf-234f800b5a9e")
 	)
 	(label "SDIO_CLK"
-		(at 166.37 27.94 0)
+		(at 166.37 30.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11732,7 +11732,7 @@
 		(uuid "6db042e4-510d-4ee5-8c4a-a64c9cf16e6d")
 	)
 	(label "SDIO_D2"
-		(at 215.9 36.83 180)
+		(at 215.9 39.37 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11911,7 +11911,7 @@
 		(uuid "9f2b0956-3be2-4703-ad39-f78e1896f933")
 	)
 	(label "SDIO_D0"
-		(at 215.9 31.75 180)
+		(at 215.9 34.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16420,7 +16420,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 190.5 43.18 0)
+		(at 190.5 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16429,7 +16429,7 @@
 		(fields_autoplaced yes)
 		(uuid "774456a7-ebbf-4f34-be9c-6c2c2ffbb331")
 		(property "Reference" "#PWR09"
-			(at 190.5 49.53 0)
+			(at 190.5 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16438,7 +16438,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 190.5 48.26 0)
+			(at 190.5 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16447,7 +16447,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 43.18 0)
+			(at 190.5 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16456,7 +16456,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 43.18 0)
+			(at 190.5 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16465,7 +16465,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 190.5 43.18 0)
+			(at 190.5 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19721,7 +19721,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dff0ba24-edc4-487c-8314-c0dba2d472ac")
-		(property "Reference" "J2"
+		(property "Reference" "J1"
 			(at 20.32 17.78 0)
 			(effects
 				(font
@@ -19844,7 +19844,7 @@
 		(instances
 			(project ""
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "J2")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -19986,15 +19986,15 @@
 	)
 	(symbol
 		(lib_id "adafruit:adafruit_4682_sdio_card")
-		(at 190.5 30.48 0)
+		(at 190.5 33.02 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "e16060ce-449f-4235-b88f-5ddeb3f8f9a5")
-		(property "Reference" "J1"
-			(at 200.66 20.32 0)
+		(property "Reference" "J2"
+			(at 200.66 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20003,7 +20003,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 190.1541 20.32 0)
+			(at 190.1541 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20012,7 +20012,7 @@
 			)
 		)
 		(property "Footprint" "adafruit:adafruit_4682_sdio_card"
-			(at 190.5 30.48 0)
+			(at 190.5 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20021,7 +20021,7 @@
 			)
 		)
 		(property "Datasheet" "https://learn.adafruit.com/adafruit-microsd-spi-sdio"
-			(at 190.5 30.48 0)
+			(at 190.5 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20030,7 +20030,7 @@
 			)
 		)
 		(property "Description" "Adafruit MicroSD SPI or SDIO Card Breakout Board"
-			(at 190.5 30.48 0)
+			(at 190.5 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20039,7 +20039,7 @@
 			)
 		)
 		(property "Manufacturer" "Adafruit"
-			(at 190.5 30.48 0)
+			(at 190.5 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20048,7 +20048,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "4682"
-			(at 190.5 30.48 0)
+			(at 190.5 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20057,7 +20057,7 @@
 			)
 		)
 		(property "Distributor" "DigiKey"
-			(at 190.5 30.48 0)
+			(at 190.5 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20066,7 +20066,7 @@
 			)
 		)
 		(property "Distributor Part Number" "1528-4682-ND"
-			(at 190.5 30.48 0)
+			(at 190.5 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20075,7 +20075,7 @@
 			)
 		)
 		(property "Distributor Link" "https://www.digikey.ca/en/products/detail/adafruit-industries-llc/4682/12822319?s=N4IgTCBcDaICwDYAcYAEBDAJugZgJwFcBLAFxAF0BfIA"
-			(at 190.5 30.48 0)
+			(at 190.5 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20113,7 +20113,7 @@
 		(instances
 			(project ""
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "J1")
+					(reference "J2")
 					(unit 1)
 				)
 			)
