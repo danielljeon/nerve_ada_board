@@ -12473,7 +12473,7 @@
 		)
 		(uuid "460ae2f9-2b4e-429c-baaf-9e718e74eae9")
 	)
-	(label "HSE_IN"
+	(label "LSE_IN"
 		(at 58.42 115.57 180)
 		(fields_autoplaced yes)
 		(effects
