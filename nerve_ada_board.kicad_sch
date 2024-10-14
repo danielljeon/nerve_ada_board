@@ -8482,7 +8482,7 @@
 		(uuid "123b1f64-9ac7-4b12-97df-0888197aa5ee")
 	)
 	(no_connect
-		(at 158.75 142.24)
+		(at 156.21 130.81)
 		(uuid "2f129bf5-4993-4f0a-bb9b-45e1501dc223")
 	)
 	(no_connect
@@ -8514,7 +8514,7 @@
 		(uuid "89ab5782-bf21-4991-9dde-0516f4c5d455")
 	)
 	(no_connect
-		(at 241.3 152.4)
+		(at 233.68 152.4)
 		(uuid "8c6ce10c-3426-417d-96e3-86f0fd987c29")
 	)
 	(no_connect
@@ -8526,7 +8526,7 @@
 		(uuid "a06fd56e-0c20-442c-9a65-31cc3e1fd166")
 	)
 	(no_connect
-		(at 133.35 157.48)
+		(at 130.81 146.05)
 		(uuid "ad842f21-1582-40aa-8379-31937c5568e1")
 	)
 	(no_connect
@@ -8550,7 +8550,7 @@
 		(uuid "e1c4517f-4dd4-4f59-bc5f-45b06e44ff3b")
 	)
 	(no_connect
-		(at 186.69 152.4)
+		(at 176.53 152.4)
 		(uuid "e1d30b9d-2c08-48f9-af65-a161e6d314ee")
 	)
 	(no_connect
@@ -8663,7 +8663,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 154.94) (xy 270.51 154.94)
+			(xy 261.62 154.94) (xy 270.51 154.94)
 		)
 		(stroke
 			(width 0)
@@ -8903,7 +8903,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 152.4) (xy 270.51 152.4)
+			(xy 261.62 152.4) (xy 270.51 152.4)
 		)
 		(stroke
 			(width 0)
@@ -8923,7 +8923,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 135.89) (xy 115.57 152.4)
+			(xy 113.03 124.46) (xy 113.03 140.97)
 		)
 		(stroke
 			(width 0)
@@ -9113,7 +9113,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 147.32) (xy 133.35 147.32)
+			(xy 129.54 135.89) (xy 130.81 135.89)
 		)
 		(stroke
 			(width 0)
@@ -9153,7 +9153,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 161.29) (xy 200.66 162.56)
+			(xy 190.5 161.29) (xy 190.5 162.56)
 		)
 		(stroke
 			(width 0)
@@ -9253,7 +9253,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 147.32) (xy 160.02 147.32)
+			(xy 156.21 135.89) (xy 157.48 135.89)
 		)
 		(stroke
 			(width 0)
@@ -9263,7 +9263,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 142.24) (xy 133.35 142.24)
+			(xy 129.54 130.81) (xy 130.81 130.81)
 		)
 		(stroke
 			(width 0)
@@ -9333,7 +9333,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 147.32) (xy 270.51 147.32)
+			(xy 261.62 147.32) (xy 262.89 147.32)
 		)
 		(stroke
 			(width 0)
@@ -9343,7 +9343,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 149.86) (xy 133.35 149.86)
+			(xy 129.54 138.43) (xy 130.81 138.43)
 		)
 		(stroke
 			(width 0)
@@ -9523,7 +9523,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 163.83) (xy 273.05 163.83)
+			(xy 262.89 163.83) (xy 271.78 163.83)
 		)
 		(stroke
 			(width 0)
@@ -9753,7 +9753,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 152.4) (xy 133.35 152.4)
+			(xy 113.03 140.97) (xy 130.81 140.97)
 		)
 		(stroke
 			(width 0)
@@ -9843,7 +9843,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 137.16) (xy 198.12 138.43)
+			(xy 187.96 137.16) (xy 187.96 138.43)
 		)
 		(stroke
 			(width 0)
@@ -9903,7 +9903,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 162.56) (xy 146.05 163.83)
+			(xy 143.51 151.13) (xy 143.51 152.4)
 		)
 		(stroke
 			(width 0)
@@ -10423,7 +10423,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 152.4) (xy 215.9 152.4)
+			(xy 204.47 152.4) (xy 213.36 152.4)
 		)
 		(stroke
 			(width 0)
@@ -10503,7 +10503,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 161.29) (xy 273.05 161.29)
+			(xy 262.89 161.29) (xy 271.78 161.29)
 		)
 		(stroke
 			(width 0)
@@ -10603,7 +10603,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 147.32) (xy 241.3 147.32)
+			(xy 232.41 147.32) (xy 233.68 147.32)
 		)
 		(stroke
 			(width 0)
@@ -11123,7 +11123,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 161.29) (xy 255.27 162.56)
+			(xy 247.65 161.29) (xy 247.65 162.56)
 		)
 		(stroke
 			(width 0)
@@ -11343,7 +11343,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 147.32) (xy 215.9 147.32)
+			(xy 204.47 147.32) (xy 205.74 147.32)
 		)
 		(stroke
 			(width 0)
@@ -11483,7 +11483,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 149.86) (xy 160.02 149.86)
+			(xy 156.21 138.43) (xy 157.48 138.43)
 		)
 		(stroke
 			(width 0)
@@ -11533,7 +11533,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 154.94) (xy 133.35 154.94)
+			(xy 129.54 143.51) (xy 130.81 143.51)
 		)
 		(stroke
 			(width 0)
@@ -11913,7 +11913,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 147.32) (xy 186.69 147.32)
+			(xy 175.26 147.32) (xy 176.53 147.32)
 		)
 		(stroke
 			(width 0)
@@ -11933,7 +11933,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 135.89) (xy 143.51 137.16)
+			(xy 140.97 124.46) (xy 140.97 125.73)
 		)
 		(stroke
 			(width 0)
@@ -11953,7 +11953,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 161.29) (xy 218.44 161.29)
+			(xy 205.74 161.29) (xy 214.63 161.29)
 		)
 		(stroke
 			(width 0)
@@ -11983,7 +11983,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 163.83) (xy 218.44 163.83)
+			(xy 205.74 163.83) (xy 214.63 163.83)
 		)
 		(stroke
 			(width 0)
@@ -12083,7 +12083,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 137.16) (xy 252.73 138.43)
+			(xy 245.11 137.16) (xy 245.11 138.43)
 		)
 		(stroke
 			(width 0)
@@ -12103,7 +12103,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 154.94) (xy 215.9 154.94)
+			(xy 204.47 154.94) (xy 213.36 154.94)
 		)
 		(stroke
 			(width 0)
@@ -12203,7 +12203,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 144.78) (xy 133.35 144.78)
+			(xy 129.54 133.35) (xy 130.81 133.35)
 		)
 		(stroke
 			(width 0)
@@ -12462,6 +12462,28 @@
 		)
 		(uuid "28873009-f32c-4498-b366-da35093836f7")
 	)
+	(label "CAN2-"
+		(at 262.89 154.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2fda39d7-352c-47f3-8848-fa2756e25541")
+	)
+	(label "CAN2+"
+		(at 262.89 152.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3dc30e27-8786-4347-8190-ab885d089c2a")
+	)
 	(label "HSE_OUT"
 		(at 58.42 69.85 180)
 		(fields_autoplaced yes)
@@ -12484,6 +12506,17 @@
 		)
 		(uuid "47bf3b5a-f851-496d-aff9-194b13934634")
 	)
+	(label "CAN2+"
+		(at 264.16 161.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "723acea4-522e-4190-ad9e-ab05cba02aee")
+	)
 	(label "LSE_OUT"
 		(at 58.42 118.11 180)
 		(fields_autoplaced yes)
@@ -12495,6 +12528,39 @@
 		)
 		(uuid "86862257-48b0-4147-a0d4-1070b25bab3d")
 	)
+	(label "CAN1-"
+		(at 205.74 154.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a1af0953-53ff-482a-8f02-58bc8c1388e8")
+	)
+	(label "CAN1+"
+		(at 207.01 161.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ae7cb090-59ab-499d-b673-265460b4ce66")
+	)
+	(label "CAN1+"
+		(at 205.74 152.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b74a96bc-74bc-4f73-8ad2-8fec0f4b3dc9")
+	)
 	(label "BOOT0"
 		(at 58.42 62.23 180)
 		(fields_autoplaced yes)
@@ -12505,6 +12571,28 @@
 			(justify right bottom)
 		)
 		(uuid "e8f2ff28-a23a-4d88-a477-6b9e17163783")
+	)
+	(label "CAN2-"
+		(at 264.16 163.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f93e344d-a64b-4d1e-b6d0-0174752b7238")
+	)
+	(label "CAN1-"
+		(at 207.01 163.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fc99f9ba-0b07-448f-8c79-c865ab91c0aa")
 	)
 	(hierarchical_label "SWO"
 		(shape input)
@@ -12532,7 +12620,7 @@
 	)
 	(hierarchical_label "CAN1_LOW-"
 		(shape input)
-		(at 215.9 154.94 0)
+		(at 213.36 154.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12580,7 +12668,7 @@
 	)
 	(hierarchical_label "CAN1_HIGH+"
 		(shape input)
-		(at 217.17 161.29 180)
+		(at 205.74 161.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12592,7 +12680,7 @@
 	)
 	(hierarchical_label "CAN2_RX"
 		(shape input)
-		(at 270.51 147.32 0)
+		(at 262.89 147.32 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12628,7 +12716,7 @@
 	)
 	(hierarchical_label "CAN1_LOW-"
 		(shape input)
-		(at 217.17 163.83 180)
+		(at 205.74 163.83 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12677,7 +12765,7 @@
 	)
 	(hierarchical_label "GPIO_IMU_P0"
 		(shape input)
-		(at 132.08 154.94 180)
+		(at 129.54 143.51 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12761,7 +12849,7 @@
 	)
 	(hierarchical_label "CAN1_HIGH+"
 		(shape input)
-		(at 215.9 152.4 0)
+		(at 213.36 152.4 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12869,7 +12957,7 @@
 	)
 	(hierarchical_label "EXTI0_IMU_INT"
 		(shape input)
-		(at 160.02 149.86 0)
+		(at 157.48 138.43 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12881,7 +12969,7 @@
 	)
 	(hierarchical_label "GPIO_IMU_RST"
 		(shape input)
-		(at 132.08 149.86 180)
+		(at 129.54 138.43 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12893,7 +12981,7 @@
 	)
 	(hierarchical_label "CAN1_RX"
 		(shape input)
-		(at 215.9 147.32 0)
+		(at 205.74 147.32 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12941,7 +13029,7 @@
 	)
 	(hierarchical_label "SPI2_MOSI"
 		(shape input)
-		(at 132.08 147.32 180)
+		(at 129.54 135.89 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13062,7 +13150,7 @@
 	)
 	(hierarchical_label "CAN2_HIGH+"
 		(shape input)
-		(at 271.78 161.29 180)
+		(at 262.89 161.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13243,7 +13331,7 @@
 	)
 	(hierarchical_label "GPIO_SPI2_CS"
 		(shape input)
-		(at 132.08 144.78 180)
+		(at 129.54 133.35 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13255,7 +13343,7 @@
 	)
 	(hierarchical_label "SPI2_SCK"
 		(shape input)
-		(at 132.08 142.24 180)
+		(at 129.54 130.81 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13559,7 +13647,7 @@
 	)
 	(hierarchical_label "CAN2_LOW-"
 		(shape input)
-		(at 271.78 163.83 180)
+		(at 262.89 163.83 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13571,7 +13659,7 @@
 	)
 	(hierarchical_label "CAN1_TX"
 		(shape input)
-		(at 185.42 147.32 180)
+		(at 175.26 147.32 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13583,7 +13671,7 @@
 	)
 	(hierarchical_label "SPI2_MISO"
 		(shape input)
-		(at 160.02 147.32 0)
+		(at 157.48 135.89 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13619,7 +13707,7 @@
 	)
 	(hierarchical_label "CAN2_TX"
 		(shape input)
-		(at 240.03 147.32 180)
+		(at 232.41 147.32 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14097,7 +14185,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 200.66 162.56 0)
+		(at 190.5 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14106,7 +14194,7 @@
 		(fields_autoplaced yes)
 		(uuid "07c52555-2ae4-4fa8-9e0f-a3c3c33ec88f")
 		(property "Reference" "#PWR054"
-			(at 200.66 168.91 0)
+			(at 190.5 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14115,7 +14203,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 200.66 167.64 0)
+			(at 190.5 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14124,7 +14212,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 162.56 0)
+			(at 190.5 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14133,7 +14221,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 162.56 0)
+			(at 190.5 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14142,7 +14230,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 200.66 162.56 0)
+			(at 190.5 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14908,7 +14996,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 143.51 135.89 0)
+		(at 140.97 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14916,7 +15004,7 @@
 		(dnp no)
 		(uuid "20845176-045d-417a-bd6e-ecd8c87bc086")
 		(property "Reference" "#PWR049"
-			(at 143.51 139.7 0)
+			(at 140.97 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14925,7 +15013,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 143.51 132.08 0)
+			(at 140.97 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14933,7 +15021,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 143.51 135.89 0)
+			(at 140.97 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14942,7 +15030,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 135.89 0)
+			(at 140.97 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14951,7 +15039,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 143.51 135.89 0)
+			(at 140.97 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15504,7 +15592,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 278.13 161.29 0)
+		(at 276.86 161.29 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15513,7 +15601,7 @@
 		(dnp no)
 		(uuid "32823365-e514-4c7e-947e-a8a4a9956ba6")
 		(property "Reference" "J11"
-			(at 279.146 161.29 0)
+			(at 277.876 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15522,7 +15610,7 @@
 			)
 		)
 		(property "Value" "CAN2"
-			(at 279.146 163.83 0)
+			(at 277.876 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15531,7 +15619,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 278.13 161.29 0)
+			(at 276.86 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15540,7 +15628,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 278.13 161.29 0)
+			(at 276.86 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15549,7 +15637,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 278.13 161.29 0)
+			(at 276.86 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16314,7 +16402,7 @@
 	)
 	(symbol
 		(lib_id "adafruit:adafruit_5708_tja1051t-3")
-		(at 200.66 149.86 0)
+		(at 190.5 149.86 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -16322,7 +16410,7 @@
 		(dnp no)
 		(uuid "50cde7fc-5735-4f11-a2e3-e585e9d805a4")
 		(property "Reference" "U6"
-			(at 209.296 139.7 0)
+			(at 199.136 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16331,7 +16419,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 200.3141 139.7 0)
+			(at 190.1541 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16340,7 +16428,7 @@
 			)
 		)
 		(property "Footprint" "adafruit:adafruit_5708_tja1051t-3"
-			(at 200.66 149.86 0)
+			(at 190.5 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16349,7 +16437,7 @@
 			)
 		)
 		(property "Datasheet" "https://learn.adafruit.com/adafruit-can-pal/"
-			(at 200.66 149.86 0)
+			(at 190.5 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16358,7 +16446,7 @@
 			)
 		)
 		(property "Description" "Adafruit CAN Pal - CAN Bus Transceiver - TJA1051T/3"
-			(at 200.66 149.86 0)
+			(at 190.5 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16367,7 +16455,7 @@
 			)
 		)
 		(property "Manufacturer" "Adafruit"
-			(at 200.66 149.86 0)
+			(at 190.5 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16376,7 +16464,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "5708"
-			(at 200.66 149.86 0)
+			(at 190.5 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16385,7 +16473,7 @@
 			)
 		)
 		(property "Distributor" "DigiKey"
-			(at 200.66 149.86 0)
+			(at 190.5 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16394,7 +16482,7 @@
 			)
 		)
 		(property "Distributor Part Number" "1528-5708-ND"
-			(at 200.66 149.86 0)
+			(at 190.5 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16403,7 +16491,7 @@
 			)
 		)
 		(property "Distributor Link" "https://www.digikey.ca/en/products/detail/adafruit-industries-llc/5708/18716420?s=N4IgTCBcDaIIYBM4DMBOBXAlgFwAQFYB2ABgA4QBdAXyA"
-			(at 200.66 149.86 0)
+			(at 190.5 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16750,7 +16838,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 198.12 137.16 0)
+		(at 187.96 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16758,7 +16846,7 @@
 		(dnp no)
 		(uuid "54b472bb-fbdc-41da-a7d4-fe823d3bc838")
 		(property "Reference" "#PWR050"
-			(at 198.12 140.97 0)
+			(at 187.96 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16767,7 +16855,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 198.12 133.35 0)
+			(at 187.96 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16775,7 +16863,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 137.16 0)
+			(at 187.96 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16784,7 +16872,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 137.16 0)
+			(at 187.96 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16793,7 +16881,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 198.12 137.16 0)
+			(at 187.96 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19583,7 +19671,7 @@
 	)
 	(symbol
 		(lib_id "adafruit:adafruit_5708_tja1051t-3")
-		(at 255.27 149.86 0)
+		(at 247.65 149.86 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -19591,7 +19679,7 @@
 		(dnp no)
 		(uuid "9580d2be-6f80-47d3-bf74-8436fc05995a")
 		(property "Reference" "U7"
-			(at 263.906 139.7 0)
+			(at 256.286 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19600,7 +19688,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 254.9241 139.7 0)
+			(at 247.3041 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19609,7 +19697,7 @@
 			)
 		)
 		(property "Footprint" "adafruit:adafruit_5708_tja1051t-3"
-			(at 255.27 149.86 0)
+			(at 247.65 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19618,7 +19706,7 @@
 			)
 		)
 		(property "Datasheet" "https://learn.adafruit.com/adafruit-can-pal/"
-			(at 255.27 149.86 0)
+			(at 247.65 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19627,7 +19715,7 @@
 			)
 		)
 		(property "Description" "Adafruit CAN Pal - CAN Bus Transceiver - TJA1051T/3"
-			(at 255.27 149.86 0)
+			(at 247.65 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19636,7 +19724,7 @@
 			)
 		)
 		(property "Manufacturer" "Adafruit"
-			(at 255.27 149.86 0)
+			(at 247.65 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19645,7 +19733,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "5708"
-			(at 255.27 149.86 0)
+			(at 247.65 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19654,7 +19742,7 @@
 			)
 		)
 		(property "Distributor" "DigiKey"
-			(at 255.27 149.86 0)
+			(at 247.65 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19663,7 +19751,7 @@
 			)
 		)
 		(property "Distributor Part Number" "1528-5708-ND"
-			(at 255.27 149.86 0)
+			(at 247.65 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19672,7 +19760,7 @@
 			)
 		)
 		(property "Distributor Link" "https://www.digikey.ca/en/products/detail/adafruit-industries-llc/5708/18716420?s=N4IgTCBcDaIIYBM4DMBOBXAlgFwAQFYB2ABgA4QBdAXyA"
-			(at 255.27 149.86 0)
+			(at 247.65 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19998,7 +20086,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 252.73 137.16 0)
+		(at 245.11 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20006,7 +20094,7 @@
 		(dnp no)
 		(uuid "9f9d4381-7e59-4239-8319-d05658079fe8")
 		(property "Reference" "#PWR051"
-			(at 252.73 140.97 0)
+			(at 245.11 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20015,7 +20103,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 252.73 133.35 0)
+			(at 245.11 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20023,7 +20111,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 252.73 137.16 0)
+			(at 245.11 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20032,7 +20120,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 137.16 0)
+			(at 245.11 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20041,7 +20129,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 252.73 137.16 0)
+			(at 245.11 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21086,7 +21174,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 223.52 161.29 0)
+		(at 219.71 161.29 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21095,7 +21183,7 @@
 		(dnp no)
 		(uuid "b3199fc8-dff3-4ec1-b964-0cedfef901ca")
 		(property "Reference" "J10"
-			(at 224.536 161.29 0)
+			(at 220.726 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21104,7 +21192,7 @@
 			)
 		)
 		(property "Value" "CAN1"
-			(at 224.536 163.83 0)
+			(at 220.726 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21113,7 +21201,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 223.52 161.29 0)
+			(at 219.71 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21122,7 +21210,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 223.52 161.29 0)
+			(at 219.71 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21131,7 +21219,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 223.52 161.29 0)
+			(at 219.71 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22341,7 +22429,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 115.57 135.89 0)
+		(at 113.03 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22349,7 +22437,7 @@
 		(dnp no)
 		(uuid "dd81ea7f-bb8f-4338-b0d0-021e4cbc3592")
 		(property "Reference" "#PWR048"
-			(at 115.57 139.7 0)
+			(at 113.03 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22358,7 +22446,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 115.57 132.08 0)
+			(at 113.03 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22366,7 +22454,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 135.89 0)
+			(at 113.03 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22375,7 +22463,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 135.89 0)
+			(at 113.03 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22384,7 +22472,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 115.57 135.89 0)
+			(at 113.03 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22792,7 +22880,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 146.05 163.83 0)
+		(at 143.51 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22801,7 +22889,7 @@
 		(fields_autoplaced yes)
 		(uuid "e0bb6b03-e543-4ac8-951b-882d6ffce3a8")
 		(property "Reference" "#PWR056"
-			(at 146.05 170.18 0)
+			(at 143.51 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22810,7 +22898,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 146.05 168.91 0)
+			(at 143.51 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22819,7 +22907,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 163.83 0)
+			(at 143.51 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22828,7 +22916,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 163.83 0)
+			(at 143.51 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22837,7 +22925,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 146.05 163.83 0)
+			(at 143.51 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22994,7 +23082,7 @@
 	)
 	(symbol
 		(lib_id "adafruit:adafruit_4754_bno085")
-		(at 146.05 149.86 0)
+		(at 143.51 138.43 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -23002,7 +23090,7 @@
 		(dnp no)
 		(uuid "e49150c1-381a-45f3-8b6f-4b15890cd2ce")
 		(property "Reference" "U5"
-			(at 153.67 138.43 0)
+			(at 151.13 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23011,7 +23099,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 145.7041 138.43 0)
+			(at 143.1641 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23020,7 +23108,7 @@
 			)
 		)
 		(property "Footprint" "adafruit:adafruit_4754_bno085"
-			(at 146.05 149.86 0)
+			(at 143.51 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23029,7 +23117,7 @@
 			)
 		)
 		(property "Datasheet" "https://learn.adafruit.com/adafruit-9-dof-orientation-imu-fusion-breakout-bno085"
-			(at 146.05 149.86 0)
+			(at 143.51 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23038,7 +23126,7 @@
 			)
 		)
 		(property "Description" "Adafruit 9-DOF Orientation IMU Fusion Breakout - BNO085 (BNO080) - STEMMA QT / Qwiic"
-			(at 146.05 149.86 0)
+			(at 143.51 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23047,7 +23135,7 @@
 			)
 		)
 		(property "Manufacturer" "Adafruit"
-			(at 146.05 149.86 0)
+			(at 143.51 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23056,7 +23144,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "4754"
-			(at 146.05 149.86 0)
+			(at 143.51 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23065,7 +23153,7 @@
 			)
 		)
 		(property "Distributor" "DigiKey"
-			(at 146.05 149.86 0)
+			(at 143.51 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23074,7 +23162,7 @@
 			)
 		)
 		(property "Distributor Part Number" "1528-4754-ND"
-			(at 146.05 149.86 0)
+			(at 143.51 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23083,7 +23171,7 @@
 			)
 		)
 		(property "Distributor Link" "https://www.digikey.ca/en/products/detail/adafruit-industries-llc/4754/13426653?s=N4IgTCBcDaIIYBM4DMBOBXAlgFwAQBYB2AVnxAF0BfIA"
-			(at 146.05 149.86 0)
+			(at 143.51 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23474,7 +23562,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 255.27 162.56 0)
+		(at 247.65 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23483,7 +23571,7 @@
 		(fields_autoplaced yes)
 		(uuid "ebe1fe32-c76b-49f0-8e52-1aa666a36bf2")
 		(property "Reference" "#PWR055"
-			(at 255.27 168.91 0)
+			(at 247.65 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23492,7 +23580,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 255.27 167.64 0)
+			(at 247.65 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23501,7 +23589,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 255.27 162.56 0)
+			(at 247.65 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23510,7 +23598,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 255.27 162.56 0)
+			(at 247.65 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23519,7 +23607,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 255.27 162.56 0)
+			(at 247.65 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
