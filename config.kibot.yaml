@@ -75,10 +75,10 @@ outputs:
         - Quantity Per PCB
         - field: Value
           join: [ "voltage", "current", "power", "tolerance" ]
-        - field: MFN
+        - field: Manufacturer
           name: Manufacturer
-        - field: MFP
-          name: Manf. Part
+        - field: Manufacturer Part Number
+          name: Manufacturer Part Number
         - Footprint
       normalize_values: true
 
