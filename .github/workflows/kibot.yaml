@@ -37,6 +37,13 @@ jobs:
         with:
           submodules: true
 
+      - name: Cache 3D models data
+        id: models-cache
+        uses: set-soft/cache@main
+        with:
+          path: ~/cache_3d
+          key: cache_3d
+
       - name: Run ERC
         uses: INTI-CMNB/KiBot@v2_k8
         with:
