@@ -3522,7 +3522,7 @@
 				)
 			)
 		)
-		(symbol "common:harwin_s8411-45r_cr1220_coin_battery_cell"
+		(symbol "common:harwin_s8411-45r_cr1220"
 			(pin_names
 				(offset 1.016)
 			)
@@ -3545,7 +3545,7 @@
 					)
 				)
 			)
-			(property "Footprint" "common:harwin_s8411-45r_cr1220_coin_battery_cell"
+			(property "Footprint" "common:harwin_s8411-45r_cr1220"
 				(at 3.81 -2.54 0)
 				(effects
 					(font
@@ -3635,7 +3635,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "harwin_s8411-45r_cr1220_coin_battery_cell_0_1"
+			(symbol "harwin_s8411-45r_cr1220_0_1"
 				(rectangle
 					(start -0.254 -1.524)
 					(end -0.762 1.524)
@@ -3707,7 +3707,7 @@
 					)
 				)
 			)
-			(symbol "harwin_s8411-45r_cr1220_coin_battery_cell_1_1"
+			(symbol "harwin_s8411-45r_cr1220_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -14269,118 +14269,6 @@
 		)
 	)
 	(symbol
-		(lib_id "common:harwin_s8411-45r_cr1220_coin_battery_cell")
-		(at 152.4 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "15ed930d-6bd9-44b8-831e-fbac8e94cfa4")
-		(property "Reference" "BT1"
-			(at 152.4 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CR1220"
-			(at 152.4 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "common:harwin_s8411-45r_cr1220_coin_battery_cell"
-			(at 156.21 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.harwin.com/products/S8411-45R"
-			(at 187.96 32.893 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Battery Holder (Open) Coin, 12.0mm 1 Cell SMD (SMT) Tab"
-			(at 187.96 29.083 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Harwin"
-			(at 187.96 24.003 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "S8411-45R"
-			(at 187.96 24.003 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 187.96 24.003 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Part Number" "952-1745-1-ND"
-			(at 187.96 32.893 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link" "https://www.digikey.ca/en/products/detail/harwin-inc/S8411-45R/3131055?s=N4IgTCBcDaIMoA4AsBGFBaJBWASiAugL5A"
-			(at 187.96 29.083 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "43d7fefe-25f9-4451-89ae-0758e016ed76")
-		)
-		(pin "2"
-			(uuid "85ba5fd3-d97b-4e74-a004-78b23fbf2376")
-		)
-		(instances
-			(project ""
-				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "BT1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 152.4 57.15 0)
 		(unit 1)
@@ -21827,6 +21715,118 @@
 			(project "nerve_ada_board"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "common:harwin_s8411-45r_cr1220")
+		(at 152.4 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d7c4fc9e-29cd-4f7d-836e-0695440557af")
+		(property "Reference" "BT1"
+			(at 152.4 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CR1220"
+			(at 152.4 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "common:harwin_s8411-45r_cr1220"
+			(at 156.21 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.harwin.com/products/S8411-45R"
+			(at 187.96 32.893 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Battery Holder (Open) Coin, 12.0mm 1 Cell SMD (SMT) Tab"
+			(at 187.96 29.083 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Harwin"
+			(at 187.96 24.003 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "S8411-45R"
+			(at 187.96 24.003 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "DigiKey"
+			(at 187.96 24.003 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Part Number" "952-1745-1-ND"
+			(at 187.96 32.893 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.ca/en/products/detail/harwin-inc/S8411-45R/3131055?s=N4IgTCBcDaIMoA4AsBGFBaJBWASiAugL5A"
+			(at 187.96 29.083 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b6cda95-d420-44f6-9906-344b73c4974a")
+		)
+		(pin "2"
+			(uuid "b8e942ef-7090-4648-b460-fdddb467dd0c")
+		)
+		(instances
+			(project ""
+				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
+					(reference "BT1")
 					(unit 1)
 				)
 			)
