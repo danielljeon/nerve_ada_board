@@ -92,6 +92,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          submodules: true
 
       - uses: INTI-CMNB/KiBot@v2_k8
         with:
