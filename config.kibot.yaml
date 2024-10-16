@@ -65,7 +65,7 @@ outputs:
     dir: BoM
     options: &bom_options
       xlsx:
-        datasheet_as_link: MFP
+        datasheet_as_link: Manufacturer Part Number
         title: "BoM"
         max_col_width: 40
         highlight_empty: false
@@ -79,6 +79,12 @@ outputs:
           name: Manufacturer
         - field: Manufacturer Part Number
           name: Manufacturer Part Number
+        - field: Distributor
+          name: Distributor
+        - field: Distributor Part Number
+          name: Distributor Part Number
+        - field: Distributor Link
+          name: Distributor Link
         - Footprint
       normalize_values: true
 
