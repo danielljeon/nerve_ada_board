@@ -43,8 +43,8 @@ jobs:
           config: config.kibot.yaml  # Required - kibot config file.
           # schema: kicad_project_name.kicad_sch  # Optional - schematic file.
           # board: kicad_project_name.kicad_pcb  # Optional - PCB design file.
-
           dir: Generated
+          cache3D: YES
           skip: drc
           targets: __NONE__
 
@@ -72,8 +72,8 @@ jobs:
           config: config.kibot.yaml  # Required - kibot config file.
           # schema: kicad_project_name.kicad_sch  # Optional - schematic file.
           # board: kicad_project_name.kicad_pcb  # Optional - PCB design file.
-
           dir: Generated
+          cache3D: YES
           skip: erc
           targets: __NONE__
 
@@ -100,8 +100,8 @@ jobs:
           config: config.kibot.yaml  # Required - kibot config file.
           # schema: kicad_project_name.kicad_sch  # Optional - schematic file.
           # board: kicad_project_name.kicad_pcb  # Optional - PCB design file.
-
           dir: default
+          cache3D: YES
           variant: default
           skip: erc,drc
 
