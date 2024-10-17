@@ -9225,16 +9225,6 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 163.83) (xy 271.78 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41b43466-fbfe-48be-b882-6409ab5ac12b")
-	)
-	(wire
-		(pts
 			(xy 135.89 57.15) (xy 135.89 58.42)
 		)
 		(stroke
@@ -10202,16 +10192,6 @@
 			(type default)
 		)
 		(uuid "86c95088-ca24-49a2-af16-d22a622dfcca")
-	)
-	(wire
-		(pts
-			(xy 262.89 161.29) (xy 271.78 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86e89bbf-0e8c-47cc-8a47-a1e37a0f731d")
 	)
 	(wire
 		(pts
@@ -11655,16 +11635,6 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 161.29) (xy 214.63 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eeb4587f-fa01-43e2-9da4-e02b11aa227a")
-	)
-	(wire
-		(pts
 			(xy 118.11 180.34) (xy 119.38 180.34)
 		)
 		(stroke
@@ -11682,16 +11652,6 @@
 			(type default)
 		)
 		(uuid "eed08b27-60a7-47a7-90fd-7683dcf5a8d0")
-	)
-	(wire
-		(pts
-			(xy 205.74 163.83) (xy 214.63 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef0eca92-38ba-481c-89a6-e46ca911b743")
 	)
 	(wire
 		(pts
@@ -12177,17 +12137,6 @@
 		)
 		(uuid "47bf3b5a-f851-496d-aff9-194b13934634")
 	)
-	(label "CAN2+"
-		(at 264.16 161.29 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "723acea4-522e-4190-ad9e-ab05cba02aee")
-	)
 	(label "LSE_OUT"
 		(at 58.42 118.11 180)
 		(fields_autoplaced yes)
@@ -12211,17 +12160,6 @@
 		(uuid "a1af0953-53ff-482a-8f02-58bc8c1388e8")
 	)
 	(label "CAN1+"
-		(at 207.01 161.29 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ae7cb090-59ab-499d-b673-265460b4ce66")
-	)
-	(label "CAN1+"
 		(at 205.74 152.4 0)
 		(fields_autoplaced yes)
 		(effects
@@ -12242,28 +12180,6 @@
 			(justify right bottom)
 		)
 		(uuid "e8f2ff28-a23a-4d88-a477-6b9e17163783")
-	)
-	(label "CAN2-"
-		(at 264.16 163.83 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f93e344d-a64b-4d1e-b6d0-0174752b7238")
-	)
-	(label "CAN1-"
-		(at 207.01 163.83 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fc99f9ba-0b07-448f-8c79-c865ab91c0aa")
 	)
 	(hierarchical_label "SWO"
 		(shape input)
@@ -12288,18 +12204,6 @@
 			(justify right)
 		)
 		(uuid "084c9f13-5ba2-4a82-b951-f9b30fb0891a")
-	)
-	(hierarchical_label "CAN1_LOW-"
-		(shape input)
-		(at 213.36 154.94 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0f666cef-2153-40a6-89fc-c4136baa557a")
 	)
 	(hierarchical_label "GPIO_IMU_P0"
 		(shape input)
@@ -12337,18 +12241,6 @@
 		)
 		(uuid "1066a44e-1173-44f2-9767-5f746df17886")
 	)
-	(hierarchical_label "CAN1_HIGH+"
-		(shape input)
-		(at 205.74 161.29 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "10f6343f-a440-4cf8-a300-302a9c085642")
-	)
 	(hierarchical_label "CAN2_RX"
 		(shape input)
 		(at 262.89 147.32 0)
@@ -12384,18 +12276,6 @@
 			(justify right)
 		)
 		(uuid "1f691368-f5a0-4868-815c-1012aa662486")
-	)
-	(hierarchical_label "CAN1_LOW-"
-		(shape input)
-		(at 205.74 163.83 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "21d63e49-a6f8-4793-8251-11875960db23")
 	)
 	(hierarchical_label "PB5_EXP"
 		(shape input)
@@ -12494,18 +12374,6 @@
 		)
 		(uuid "2b817b20-2105-4f98-91b9-6ebeb470713d")
 	)
-	(hierarchical_label "CAN2_HIGH+"
-		(shape input)
-		(at 270.51 152.4 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3032591f-ec4d-4b43-9968-ae177fc61244")
-	)
 	(hierarchical_label "PC2"
 		(shape input)
 		(at 85.09 182.88 180)
@@ -12517,18 +12385,6 @@
 			(justify right)
 		)
 		(uuid "30a1a762-6b32-4d31-9855-fe8fa4230776")
-	)
-	(hierarchical_label "CAN1_HIGH+"
-		(shape input)
-		(at 213.36 152.4 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "36fa64ed-17da-47ed-9c6d-0743137cc68c")
 	)
 	(hierarchical_label "USART2_RX"
 		(shape input)
@@ -12565,18 +12421,6 @@
 			(justify left)
 		)
 		(uuid "40f2b5db-2b32-49e4-adf5-9a8c2bbea691")
-	)
-	(hierarchical_label "CAN2_LOW-"
-		(shape input)
-		(at 270.51 154.94 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4283f735-32bd-4192-b038-1c8b332752f2")
 	)
 	(hierarchical_label "GPIO_SPI2_CS"
 		(shape input)
@@ -12818,18 +12662,6 @@
 			(justify left)
 		)
 		(uuid "70c3359c-ea6f-457e-bcfa-0b09d135665d")
-	)
-	(hierarchical_label "CAN2_HIGH+"
-		(shape input)
-		(at 262.89 161.29 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7412e186-0b56-4aa3-b860-3cbe935fed8a")
 	)
 	(hierarchical_label "SDIO_DET"
 		(shape input)
@@ -13291,18 +13123,6 @@
 			(justify right)
 		)
 		(uuid "d13ff23f-daba-491e-abd3-4a1617be334f")
-	)
-	(hierarchical_label "CAN2_LOW-"
-		(shape input)
-		(at 262.89 163.83 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d787cf10-2531-4b31-861d-c41853dca126")
 	)
 	(hierarchical_label "CAN1_TX"
 		(shape input)
@@ -15127,7 +14947,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 276.86 161.29 0)
+		(at 275.59 152.4 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15135,8 +14955,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "32823365-e514-4c7e-947e-a8a4a9956ba6")
-		(property "Reference" "J11"
-			(at 277.876 161.29 0)
+		(property "Reference" "J8"
+			(at 276.606 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15145,7 +14965,7 @@
 			)
 		)
 		(property "Value" "CAN2"
-			(at 277.876 163.83 0)
+			(at 276.606 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15154,7 +14974,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 276.86 161.29 0)
+			(at 275.59 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15163,7 +14983,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 276.86 161.29 0)
+			(at 275.59 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15172,7 +14992,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 276.86 161.29 0)
+			(at 275.59 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15189,7 +15009,7 @@
 		(instances
 			(project ""
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "J11")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -15872,7 +15692,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a9bdb32-56da-4e4f-a4bb-9df8bd5b6275")
-		(property "Reference" "J8"
+		(property "Reference" "J10"
 			(at 67.31 154.9399 0)
 			(effects
 				(font
@@ -15929,7 +15749,7 @@
 		(instances
 			(project ""
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "J8")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -19668,7 +19488,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9e058d03-2c83-4e14-9385-0290464296cb")
-		(property "Reference" "J7"
+		(property "Reference" "J9"
 			(at 28.956 154.686 0)
 			(effects
 				(font
@@ -19728,7 +19548,7 @@
 		(instances
 			(project "nerve_ada_board"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "J7")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -20897,7 +20717,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 219.71 161.29 0)
+		(at 218.44 152.4 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20905,8 +20725,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b3199fc8-dff3-4ec1-b964-0cedfef901ca")
-		(property "Reference" "J10"
-			(at 220.726 161.29 0)
+		(property "Reference" "J7"
+			(at 219.456 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20915,7 +20735,7 @@
 			)
 		)
 		(property "Value" "CAN1"
-			(at 220.726 163.83 0)
+			(at 219.456 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20924,7 +20744,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 219.71 161.29 0)
+			(at 218.44 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20933,7 +20753,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 219.71 161.29 0)
+			(at 218.44 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20942,7 +20762,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 219.71 161.29 0)
+			(at 218.44 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20959,7 +20779,7 @@
 		(instances
 			(project "nerve_ada_board"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "J10")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -22877,7 +22697,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e510ca04-b2ac-4c14-9ceb-705dd071200a")
-		(property "Reference" "J9"
+		(property "Reference" "J11"
 			(at 96.52 156.21 0)
 			(effects
 				(font
@@ -22931,7 +22751,7 @@
 		(instances
 			(project "nerve_ada_board"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "J9")
+					(reference "J11")
 					(unit 1)
 				)
 			)
