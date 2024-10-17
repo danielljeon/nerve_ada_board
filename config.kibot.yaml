@@ -160,7 +160,7 @@ outputs:
       force_edge_cuts: true
       keep_temporal_files: true
       title: "+ (%V variant)"  # Append the variant to the title.
-      scaling: 2.0
+      scaling: 1.0
       pages:
         - layers: [ F.Paste, F.Fab ]
           sheet: "Fabrication top layers"
