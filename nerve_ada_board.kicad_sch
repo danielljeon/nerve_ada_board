@@ -1279,142 +1279,6 @@
 				)
 			)
 		)
-		(symbol "Regulator_Linear:LD1117S33TR_SOT223"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -3.81 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LD1117S33TR_SOT223"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf"
-				(at 2.54 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 3.3V, SOT-223"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "REGULATOR LDO 3.3V"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?223*TabPin2*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LD1117S33TR_SOT223_0_1"
-				(rectangle
-					(start -5.08 -5.08)
-					(end 5.08 1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "LD1117S33TR_SOT223_1_1"
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "VO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "VI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers hide)
 			(pin_names
@@ -3260,6 +3124,181 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "common:ld39150dt33-r"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ld39150dt33-r"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "common:to-252-2_dpak-2-leg"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/ld39150.pdf"
+				(at 2.54 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1.5A Ultra Low Dropout regulator, positive, 3.3V fixed output, TO-252"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "STMicroelectronics"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" "LD39150DT33-R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Distributor" "DigiKey"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Distributor Part Number" "497-6448-1-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Distributor Link" "https://www.digikey.ca/en/products/detail/stmicroelectronics/LD39150DT33-R/1657323"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "linear regulator ldo fixed positive"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ld39150dt33-r_0_1"
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "ld39150dt33-r_1_1"
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -13768,7 +13807,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "2u2"
 			(at 280.67 31.75 0)
 			(effects
 				(font
@@ -13777,7 +13816,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 279.0952 34.29 0)
 			(effects
 				(font
@@ -14274,7 +14313,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "1u"
 			(at 255.27 31.75 0)
 			(effects
 				(font
@@ -15871,7 +15910,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3f5a5f41-faa7-441a-a508-f0cf39607009")
-		(property "Reference" "J3"
+		(property "Reference" "J2"
 			(at 194.056 45.974 0)
 			(effects
 				(font
@@ -16000,7 +16039,7 @@
 		(instances
 			(project ""
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -16667,76 +16706,6 @@
 			(project "nerve_ada_board"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
 					(reference "#PWR052")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:LD1117S33TR_SOT223")
-		(at 265.43 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "55e4917a-0543-4a0f-b372-4bee60b35d14")
-		(property "Reference" "U1"
-			(at 265.43 19.304 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LD1117S33TR_SOT223"
-			(at 265.43 21.844 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 265.43 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf"
-			(at 267.97 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 3.3V, SOT-223"
-			(at 265.43 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7d22ab71-24ee-414c-b4cd-6f14304799a0")
-		)
-		(pin "3"
-			(uuid "60505ff1-1868-4286-aff1-80e83fab18f1")
-		)
-		(pin "1"
-			(uuid "fddc0631-c293-456a-bb89-4d6e3d81c6d1")
-		)
-		(instances
-			(project ""
-				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -18407,7 +18376,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "802a734e-9e07-4352-8c9b-8b0548ec5948")
-		(property "Reference" "J4"
+		(property "Reference" "J3"
 			(at 231.14 16.256 0)
 			(effects
 				(font
@@ -18519,7 +18488,7 @@
 		(instances
 			(project ""
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "J4")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -18604,7 +18573,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "828ac921-1bd6-4012-899c-5a00b6a46905")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR011"
 			(at 154.94 43.18 0)
 			(effects
 				(font
@@ -18655,7 +18624,7 @@
 		(instances
 			(project "nerve_ada_board"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "#PWR010")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -21708,7 +21677,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d81d80cc-386c-4b2e-a307-c1efe7eb1b69")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR010"
 			(at 129.54 43.18 0)
 			(effects
 				(font
@@ -21759,7 +21728,7 @@
 		(instances
 			(project "nerve_ada_board"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "#PWR011")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -21886,7 +21855,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dbc6ea27-3560-4606-a557-ea9b6d0596d5")
-		(property "Reference" "J1"
+		(property "Reference" "J4"
 			(at 148.59 32.258 0)
 			(effects
 				(font
@@ -21983,7 +21952,7 @@
 		(instances
 			(project "nerve_ada_board"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "J1")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -22200,7 +22169,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dff0ba24-edc4-487c-8314-c0dba2d472ac")
-		(property "Reference" "J2"
+		(property "Reference" "J1"
 			(at 20.32 17.78 0)
 			(effects
 				(font
@@ -22323,7 +22292,7 @@
 		(instances
 			(project ""
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "J2")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -22458,6 +22427,121 @@
 			(project "nerve_ada_board"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
 					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "common:ld39150dt33-r")
+		(at 265.43 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e3860f2a-7e7e-4d5e-a8cd-9c24f073d099")
+		(property "Reference" "U1"
+			(at 265.43 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ld39150dt33-r"
+			(at 265.43 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "common:to-252-2_dpak-2-leg"
+			(at 265.43 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/ld39150.pdf"
+			(at 267.97 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.5A Ultra Low Dropout regulator, positive, 3.3V fixed output, TO-252"
+			(at 265.43 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "STMicroelectronics"
+			(at 265.43 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "LD39150DT33-R"
+			(at 265.43 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "DigiKey"
+			(at 265.43 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Part Number" "497-6448-1-ND"
+			(at 265.43 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.ca/en/products/detail/stmicroelectronics/LD39150DT33-R/1657323"
+			(at 265.43 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "704257ea-4307-469b-bba5-33e9d635282b")
+		)
+		(pin "1"
+			(uuid "18462448-93e5-4142-b47d-4ae2124ccea0")
+		)
+		(pin "3"
+			(uuid "1145a87b-4b86-4583-86ed-6572d1ce4b19")
+		)
+		(instances
+			(project ""
+				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
+					(reference "U1")
 					(unit 1)
 				)
 			)
