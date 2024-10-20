@@ -1279,6 +1279,108 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers hide)
 			(pin_names
@@ -8989,7 +9091,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 179.07) (xy 158.75 180.34)
+			(xy 158.75 172.72) (xy 158.75 173.99)
 		)
 		(stroke
 			(width 0)
@@ -9219,7 +9321,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 187.96) (xy 158.75 189.23)
+			(xy 158.75 181.61) (xy 158.75 182.88)
 		)
 		(stroke
 			(width 0)
@@ -9759,7 +9861,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 185.42) (xy 160.02 185.42)
+			(xy 158.75 179.07) (xy 160.02 179.07)
 		)
 		(stroke
 			(width 0)
@@ -10819,7 +10921,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 187.96) (xy 158.75 187.96)
+			(xy 160.02 181.61) (xy 158.75 181.61)
 		)
 		(stroke
 			(width 0)
@@ -11129,7 +11231,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 182.88) (xy 160.02 182.88)
+			(xy 158.75 176.53) (xy 160.02 176.53)
 		)
 		(stroke
 			(width 0)
@@ -11869,7 +11971,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 180.34) (xy 160.02 180.34)
+			(xy 158.75 173.99) (xy 160.02 173.99)
 		)
 		(stroke
 			(width 0)
@@ -12219,7 +12321,7 @@
 	)
 	(text_box "UART"
 		(exclude_from_sim no)
-		(at 143.51 181.61 90)
+		(at 143.51 175.26 90)
 		(size 16.51 5.08)
 		(stroke
 			(width 0)
@@ -13447,7 +13549,7 @@
 	)
 	(hierarchical_label "CAMERA_TX"
 		(shape input)
-		(at 158.75 185.42 180)
+		(at 158.75 179.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13520,7 +13622,7 @@
 	)
 	(hierarchical_label "CAMERA_RX"
 		(shape input)
-		(at 158.75 182.88 180)
+		(at 158.75 176.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14221,7 +14323,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
-		(at 165.1 182.88 0)
+		(at 165.1 176.53 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14230,7 +14332,7 @@
 		(dnp no)
 		(uuid "0f6b46e5-04d8-4ebb-8831-90525fd91d43")
 		(property "Reference" "J12"
-			(at 166.116 182.626 0)
+			(at 166.116 176.276 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14239,7 +14341,7 @@
 			)
 		)
 		(property "Value" "Camera"
-			(at 166.116 185.166 0)
+			(at 166.116 178.816 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14248,7 +14350,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 165.1 182.88 0)
+			(at 165.1 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14257,7 +14359,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 165.1 182.88 0)
+			(at 165.1 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14266,7 +14368,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 165.1 182.88 0)
+			(at 165.1 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17220,6 +17322,73 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 170.18 194.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e291e63-de0d-4921-ac86-c37219eb5206")
+		(property "Reference" "#PWR068"
+			(at 170.18 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 170.18 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 170.18 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3937efd6-b258-4956-b8fc-cc88576cd2c7")
+		)
+		(instances
+			(project "nerve_ada_board"
+				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 204.47 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17421,7 +17590,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 158.75 189.23 0)
+		(at 158.75 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17430,7 +17599,7 @@
 		(fields_autoplaced yes)
 		(uuid "6be1b33a-012d-4203-bfb4-81687132289b")
 		(property "Reference" "#PWR064"
-			(at 158.75 195.58 0)
+			(at 158.75 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17439,7 +17608,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 158.75 194.31 0)
+			(at 158.75 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17448,7 +17617,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 189.23 0)
+			(at 158.75 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17457,7 +17626,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 189.23 0)
+			(at 158.75 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17466,7 +17635,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 158.75 189.23 0)
+			(at 158.75 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17481,6 +17650,73 @@
 			(project "nerve_ada_board"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
 					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 158.75 191.77 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c5f030c-0ae9-419f-b0d0-3fa8aee72e32")
+		(property "Reference" "H1"
+			(at 161.29 189.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3"
+			(at 161.29 191.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 158.75 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 158.75 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "26601c08-3d04-4490-857f-098f46c95fa3")
+		)
+		(instances
+			(project ""
+				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -17705,7 +17941,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 158.75 179.07 0)
+		(at 158.75 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17713,7 +17949,7 @@
 		(dnp no)
 		(uuid "6dc858bc-1cdd-4d62-81f6-ebf71ad7b242")
 		(property "Reference" "#PWR063"
-			(at 158.75 182.88 0)
+			(at 158.75 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17722,7 +17958,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 158.75 175.26 0)
+			(at 158.75 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17730,7 +17966,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 179.07 0)
+			(at 158.75 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17739,7 +17975,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 179.07 0)
+			(at 158.75 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17748,7 +17984,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 158.75 179.07 0)
+			(at 158.75 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19141,6 +19377,73 @@
 			(project ""
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
 					(reference "BT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 158.75 194.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9070a94a-c639-4012-bd84-57ad0576a029")
+		(property "Reference" "#PWR067"
+			(at 158.75 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 158.75 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 158.75 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f6a6cfa-8717-4154-8aec-b3c5a9d6b633")
+		)
+		(instances
+			(project "nerve_ada_board"
+				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -21187,6 +21490,73 @@
 			(project "nerve_ada_board"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 170.18 191.77 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6de0ddc-78a7-49c1-82c2-c49759afbdc6")
+		(property "Reference" "H2"
+			(at 172.72 189.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3"
+			(at 172.72 191.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 170.18 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 170.18 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "16688cfd-e806-4d9e-a066-9b6e0176d89a")
+		)
+		(instances
+			(project "nerve_ada_board"
+				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
+					(reference "H2")
 					(unit 1)
 				)
 			)
