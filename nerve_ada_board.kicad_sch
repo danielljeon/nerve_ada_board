@@ -5,7 +5,9 @@
 	(uuid "c0277862-b3f2-4e0e-986f-34702f0543f0")
 	(paper "A4")
 	(title_block
+		(title "Nerve ADA Board")
 		(rev "0.1.0-alpha")
+		(company "Daniel Jeon")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Pin"
