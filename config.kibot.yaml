@@ -63,21 +63,30 @@ outputs:
     comment: "CSV for the Bill of Materials"
     type: bom
     dir: BOM
-    fields:
-      - Reference
-      - Value
-      - Manufacturer
-      - Manufacturer Part Number
-      - Distributor
-      - Distributor Part Number
-      - Distributor Link
-      - Footprint
     group: true # Group identical components.
     options:
       csv:
         delimiter: ","
         quote_fields: false
         header: true
+      columns:
+        - Row
+        - References
+        - Quantity Per PCB
+        - field: Value
+          join: [ "voltage", "current", "power", "tolerance" ]
+        - field: Manufacturer
+          name: Manufacturer
+        - field: Manufacturer Part Number
+          name: Manufacturer Part Number
+        - field: Distributor
+          name: Distributor
+        - field: Distributor Part Number
+          name: Distributor Part Number
+        - field: Distributor Link
+          name: Distributor Link
+        - Footprint
+      normalize_values: true
 
   - name: "bom_xlsx"
     comment: "Spreadsheet for the Bill of Materials"
