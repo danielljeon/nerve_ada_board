@@ -63,12 +63,11 @@ outputs:
     comment: "CSV for the Bill of Materials"
     type: bom
     dir: BOM
-    group: true # Group identical components.
     options:
       csv:
-        delimiter: ","
-        quote_fields: false
-        header: true
+        separator: ","
+        quote_all: false
+        hide_header: false
       columns:
         - Row
         - References
