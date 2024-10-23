@@ -59,6 +59,26 @@ variants:
 outputs:
   ##############################################################################
   # Bill of Material and Assembly step-by-step docs:
+  - name: "bom_csv"
+    comment: "CSV for the Bill of Materials"
+    type: bom
+    dir: BOM
+    plugin: csv
+    fields:
+      - Reference
+      - Value
+      - Manufacturer
+      - Manufacturer Part Number
+      - Distributor
+      - Distributor Part Number
+      - Distributor Link
+      - Footprint
+    group: true # Group identical components.
+    options:
+      delimiter: ","
+      quote_fields: false
+      header: true
+
   - name: "bom_xlsx"
     comment: "Spreadsheet for the Bill of Materials"
     type: bom
