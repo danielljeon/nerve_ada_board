@@ -63,7 +63,6 @@ outputs:
     comment: "CSV for the Bill of Materials"
     type: bom
     dir: BOM
-    plugin: csv
     fields:
       - Reference
       - Value
@@ -75,9 +74,10 @@ outputs:
       - Footprint
     group: true # Group identical components.
     options:
-      delimiter: ","
-      quote_fields: false
-      header: true
+      csv:
+        delimiter: ","
+        quote_fields: false
+        header: true
 
   - name: "bom_xlsx"
     comment: "Spreadsheet for the Bill of Materials"
