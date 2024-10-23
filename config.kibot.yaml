@@ -65,9 +65,11 @@ outputs:
     dir: BOM
     options:
       csv:
-        separator: ","
-        quote_all: false
-        hide_header: false
+        separator: ","  # CSV delimiter.
+        quote_all: false  # Do not double quote everything.
+        hide_header: false  # Show column names.
+        hide_pcb_info: true  # Hide PCB info footer.
+        hide_stats_info: true  # Hide stats foooter.
       columns:
         - Row
         - References
@@ -85,7 +87,7 @@ outputs:
         - field: Distributor Link
           name: Distributor Link
         - Footprint
-      normalize_values: true
+      normalize_values: true  # Try to make uniform R, L, C units.
 
   - name: "bom_xlsx"
     comment: "Spreadsheet for the Bill of Materials"
