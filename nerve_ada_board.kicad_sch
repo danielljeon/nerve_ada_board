@@ -10533,7 +10533,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 154.94) (xy 88.9 154.94)
+			(xy 90.17 154.94) (xy 91.44 154.94)
 		)
 		(stroke
 			(width 0)
@@ -12053,7 +12053,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 157.48) (xy 88.9 157.48)
+			(xy 90.17 157.48) (xy 91.44 157.48)
 		)
 		(stroke
 			(width 0)
@@ -12344,7 +12344,7 @@
 	)
 	(text_box "TIM3_CH1-2"
 		(exclude_from_sim no)
-		(at 76.2 151.13 0)
+		(at 78.74 151.13 0)
 		(size 12.7 7.62)
 		(stroke
 			(width 0)
@@ -12407,7 +12407,7 @@
 	)
 	(text "Manual card \ndetect jumper."
 		(exclude_from_sim no)
-		(at 151.384 16.764 0)
+		(at 138.938 39.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12447,7 +12447,7 @@
 	)
 	(text "4u7 bulk capacitor."
 		(exclude_from_sim no)
-		(at 98.044 16.764 0)
+		(at 99.568 16.764 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12460,7 +12460,7 @@
 	)
 	(text "Use PR/PD commands to pull-up\nall unused input pins. Output pins\ncan be left floating."
 		(exclude_from_sim no)
-		(at 242.824 78.74 0)
+		(at 242.824 79.502 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13271,7 +13271,7 @@
 	)
 	(hierarchical_label "PB4_EXP"
 		(shape input)
-		(at 87.63 154.94 180)
+		(at 90.17 154.94 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13599,7 +13599,7 @@
 	)
 	(hierarchical_label "PB5_EXP"
 		(shape input)
-		(at 87.63 157.48 180)
+		(at 90.17 157.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14543,21 +14543,21 @@
 		(dnp no)
 		(uuid "16c051d3-62bf-46c1-9a73-096985a9fe2a")
 		(property "Reference" "R11"
-			(at 14.986 76.2 0)
+			(at 17.272 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "0R"
-			(at 14.986 78.74 0)
+			(at 17.272 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -23065,7 +23065,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 93.98 154.94 0)
+		(at 96.52 154.94 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23074,7 +23074,7 @@
 		(dnp no)
 		(uuid "e510ca04-b2ac-4c14-9ceb-705dd071200a")
 		(property "Reference" "J11"
-			(at 95.25 154.94 0)
+			(at 97.79 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23083,7 +23083,7 @@
 			)
 		)
 		(property "Value" "PB4-5"
-			(at 95.25 157.48 0)
+			(at 97.79 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23092,7 +23092,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 93.98 154.94 0)
+			(at 96.52 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23101,7 +23101,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 93.98 154.94 0)
+			(at 96.52 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23110,7 +23110,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 93.98 154.94 0)
+			(at 96.52 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24172,21 +24172,21 @@
 		(dnp no)
 		(uuid "fa56c14a-694f-4193-8ba7-7ab1868e9752")
 		(property "Reference" "R13"
-			(at 21.336 121.92 0)
+			(at 23.622 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "0R"
-			(at 21.336 124.46 0)
+			(at 23.622 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
