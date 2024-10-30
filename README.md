@@ -14,6 +14,10 @@ Nerve dev board using off-the-shelf modules.
   <summary>Table of Contents</summary>
 
 - [1 Overview](#1-overview)
+    - [1.1 Function Connectors](#11-function-connectors)
+    - [1.2 Switches & Jumpers](#12-switches--jumpers)
+    - [1.3 Plug-in Modules](#13-plug-in-modules)
+    - [1.4 Breakout Connectors](#14-breakout-connectors)
 - [2 Development](#2-development)
 - [3 Production History](#3-production-history)
     - [3.1 v0.1.0-alpha-7b18788](#31-v010-alpha-7b18788)
@@ -27,15 +31,54 @@ Nerve dev board using off-the-shelf modules.
 Development board for the STM32
 based [nerve](https://github.com/danielljeon/nerve) controller firmware.
 
-Specifically designed to use off-the-shelf plug-in boards, primarily from
-Adafruit. See the table below:
+### 1.1 Function Connectors
 
-| Manufacturer Part Number | Manufacturer            | Description                      | Quantity |
-|--------------------------|-------------------------|----------------------------------|---------:|
-| 4754                     | Adafruit Industries LLC | BNO085 Module                    |        1 |
-| 4816                     | Adafruit Industries LLC | BMP390 Module                    |        1 |
-| 5708                     | Adafruit Industries LLC | TJA1051T/3 Module                |        2 |
-| Digi XBee-PRO 900HP      | Digi                    | Long Range 900 MHz OEM RF Module |        1 |
+These connectors are fixed by hardware (PCB traces or the connector itself).
+
+| Connector             | Ref | Description                                                                    |
+|-----------------------|:---:|--------------------------------------------------------------------------------|
+| Tag-Connect TC2050    | J1  | Programming/debug connector                                                    |
+| Hinge microSD Card    | J2  | Portable storage, see [Molex product video](https://youtu.be/YY2V8z6UK7M?t=95) |
+| USB-C 5 V Power       | J3  | Power only USB-C, primary 5 V source                                           |
+| CR1220 Battery        | BT1 | MCU and GPS battery source 3.3 V supply                                        |
+| CAN1 (Transceiver U7) | J7  | Pin 1: CAN1 High, Pin 2: CAN1 Low                                              |
+| CAN2 (Transceiver U8) | J8  | Pin 1: CAN2 High, Pin 2: CAN2 Low                                              |
+
+### 1.2 Switches & Jumpers
+
+User controllable hardware and/or firmware driven inputs.
+
+| Switch/Jumper           | Ref | Description                                    |
+|-------------------------|:---:|------------------------------------------------|
+| MCU NRESET Switch       | SW1 | Generic 6 mm TH button, push to reset          |
+| MCU PA0 Switch          | SW2 | Generic 6 mm TH button, designed for SYS_WKUP0 |
+| MCU PC13 Switch         | SW3 | Generic 6 mm TH button, designed for SYS_WKUP1 |
+| SDIO Card Detect Jumper | J4  | Close for card in (pull-down on close)         |
+| BOOT0 Jumper            | J5  | Open for run flash memory (pull-down on open)  |
+
+### 1.3 Plug-in Modules
+
+Off-the-shelf plug-in boards, primarily from Adafruit.
+
+| Manufacturer Part Number |  Ref   | Manufacturer            | Hardware Interface | Quantity | Description                      |
+|--------------------------|:------:|-------------------------|--------------------|---------:|----------------------------------|
+| 4816                     |   U3   | Adafruit Industries LLC | 2.54 mm pitch TH   |        1 | BMP390 Module                    |
+| Digi XBee-PRO 900HP      |   U5   | Digi                    | 2 mm pitch TH      |        1 | Long Range 900 MHz OEM RF Module |
+| 4754                     |   U6   | Adafruit Industries LLC | 2.54 mm pitch TH   |        1 | BNO085 Module                    |
+| 5708                     | U7, U8 | Adafruit Industries LLC | 2.54 mm pitch TH   |        2 | TJA1051T/3 Module                |
+
+### 1.4 Breakout Connectors
+
+Simple breakout connectors, driven fully or partially by firmware. See schematic
+and firmware docs for details.
+
+| Connector        | Ref | Logic | Description                                                                                     |
+|------------------|:---:|:-----:|-------------------------------------------------------------------------------------------------|
+| WS2812B Extender | J6  |  5 V  | Pin 1: PWM, Pin 2: Ground, use separate supply (preventing over current draw) and common ground |
+| SPI Breakout     | J9  | 3.3 V | Pin 1: CS, Pin 2: SCK, Pin 3: MISO, Pin 4: MOSI                                                 |
+| GPIO Breakout    | J10 |  5 V  | Pin 1, 2, 3: GPIO 1, 2, 3                                                                       |
+| PWM Breakout     | J11 |  5 V  | Pin 1, 2: PWM 1, 2                                                                              |
+| UART Camera      | J12 |  5 V  | Pin 1: 5 V, Pin 2: UART RX, Pin 3: UART TX, Pin 4: Ground, design for low current camera        |
 
 ---
 
