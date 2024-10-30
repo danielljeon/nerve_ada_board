@@ -9233,6 +9233,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 68.58) (xy 189.23 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "380440e5-1439-47aa-8252-20ed50793941")
+	)
+	(wire
+		(pts
 			(xy 130.81 149.86) (xy 132.08 149.86)
 		)
 		(stroke
@@ -9313,7 +9323,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 68.58) (xy 187.96 74.93)
+			(xy 187.96 68.58) (xy 187.96 69.85)
 		)
 		(stroke
 			(width 0)
@@ -10320,16 +10330,6 @@
 			(type default)
 		)
 		(uuid "7e8c110d-f5d1-4bda-b53c-d63a11430902")
-	)
-	(wire
-		(pts
-			(xy 187.96 68.58) (xy 189.23 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ebdab6b-a43b-4012-96f0-2cb6cdaff74a")
 	)
 	(wire
 		(pts
@@ -14258,7 +14258,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 187.96 74.93 0)
+		(at 187.96 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14266,8 +14266,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0de9444c-2ee6-4ef7-95bd-f36e4442a2f9")
-		(property "Reference" "#PWR038"
-			(at 187.96 81.28 0)
+		(property "Reference" "#PWR033"
+			(at 187.96 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14276,7 +14276,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 187.96 80.01 0)
+			(at 187.96 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14285,7 +14285,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 74.93 0)
+			(at 187.96 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14294,7 +14294,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 74.93 0)
+			(at 187.96 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14303,7 +14303,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 187.96 74.93 0)
+			(at 187.96 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14317,7 +14317,7 @@
 		(instances
 			(project "nerve_ada_board"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "#PWR038")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -14612,7 +14612,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1954efc5-92fc-4840-b755-0cd2b8f41dc0")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR034"
 			(at 27.94 80.01 0)
 			(effects
 				(font
@@ -14663,7 +14663,7 @@
 		(instances
 			(project "nerve_ada_board"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "#PWR033")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -14948,7 +14948,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2301a8bb-54be-4469-b392-23ad731a42dd")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR035"
 			(at 129.54 81.28 0)
 			(effects
 				(font
@@ -14999,7 +14999,7 @@
 		(instances
 			(project "nerve_ada_board"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "#PWR034")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -16894,7 +16894,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5697f36c-caf8-44ad-8a9a-bb891084bef5")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR038"
 			(at 179.07 81.28 0)
 			(effects
 				(font
@@ -16945,7 +16945,7 @@
 		(instances
 			(project "nerve_ada_board"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "#PWR037")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -18414,7 +18414,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7bfbdf5a-0f54-4932-94cf-c2a007e559d0")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR036"
 			(at 146.05 81.28 0)
 			(effects
 				(font
@@ -18465,7 +18465,7 @@
 		(instances
 			(project "nerve_ada_board"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "#PWR035")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -21850,7 +21850,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d412ed4a-5868-403b-888c-3dd3666831bb")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR037"
 			(at 162.56 81.28 0)
 			(effects
 				(font
@@ -21901,7 +21901,7 @@
 		(instances
 			(project "nerve_ada_board"
 				(path "/c0277862-b3f2-4e0e-986f-34702f0543f0"
-					(reference "#PWR036")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -24435,16 +24435,16 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 194.31 68.58 180)
+		(at 194.31 66.04 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ff3d5c1a-1c2c-4714-8cfd-879305be7bf8")
 		(property "Reference" "J6"
-			(at 195.58 66.0399 0)
+			(at 195.58 68.5801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24453,7 +24453,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 195.58 68.5799 0)
+			(at 195.58 66.0401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24462,7 +24462,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 194.31 68.58 0)
+			(at 194.31 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24471,7 +24471,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 194.31 68.58 0)
+			(at 194.31 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24480,7 +24480,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 194.31 68.58 0)
+			(at 194.31 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
