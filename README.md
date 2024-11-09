@@ -114,7 +114,7 @@ CI/CD objectives:
 
 Commit: [7b18788](https://github.com/danielljeon/nerve_ada_board/commit/7b187884c03f280627d8443d2d9cc163f4b6956e).
 
-Manufacturing Information:
+**Manufacturing Information:**
 
 1. Production date: 2024-10-22.
     - Manufacturer: JLCPCB.
@@ -128,4 +128,38 @@ Manufacturing Information:
     - Stencil specs (non-default):
         - Stencil quantity: 1.
         - Custom size: 100 mm x 100 mm (matching PCB dimensions).
-2. Assembly date: TBD.
+
+**Assembly Information:**
+
+1. Assembly date: 2024-11-09.
+    - Assembled PCB quantity: 1.
+    - Components/DNP: All placed except for: GPS, WS2812B LEDs.
+    - Process:
+        - Stencil solder paste print by hand.
+            - Chip Quik TS391LT `Bi57.6Sn42Ag0.4`.
+        - Pick and place by hand.
+        - Reflow with oven.
+            - Roughly correct temperatures to solder paste docs.
+            - Approximately doubled soak time due to oven limitations.
+    - Damage to though holes for connector J4 mostly on bottom side.
+        - First assembly was unsatisfactory.
+        - Attempt to remove solder to reassemble header pins resulted in damage
+          from aggressive force with the soldering iron.
+        - Final result was satisfactory, but the board damage remains on bottom
+          side.
+            - Suggested correction: heat soak the board, note also left in board
+              evaluation section of this writeup.
+        - Continuity tests showed no issues after completion.
+    - Bridged pins on the U2 STM32.
+        - Likely too much solder paste and less than ideal definition of the
+          printed solder paste.
+        - Resolved with flux and reheat with soldering iron as well as use of
+          solder wick.
+            - Suggested correction: Cleaner swipe of the stencil with less
+              solder paste.
+
+**Board Evaluation:**
+
+- Large ground planes, makes it difficult to adjust through hole components (
+  with ground pin) if required.
+    - Requires heat soaked board or uncomfortably high iron temps.
