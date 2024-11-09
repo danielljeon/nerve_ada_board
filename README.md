@@ -13,14 +13,17 @@ Nerve dev board using off-the-shelf modules.
 <details markdown="1">
   <summary>Table of Contents</summary>
 
-- [1 Overview](#1-overview)
-    - [1.1 Function Connectors](#11-function-connectors)
-    - [1.2 Switches & Jumpers](#12-switches--jumpers)
-    - [1.3 Plug-in Modules](#13-plug-in-modules)
-    - [1.4 Breakout Connectors](#14-breakout-connectors)
-- [2 Development](#2-development)
-- [3 Production History](#3-production-history)
-    - [3.1 v0.1.0-alpha-7b18788](#31-v010-alpha-7b18788)
+<!-- TOC -->
+* [nerve_ada_board](#nerve_ada_board)
+  * [1 Overview](#1-overview)
+    * [1.1 Function Connectors](#11-function-connectors)
+    * [1.2 Switches & Jumpers](#12-switches--jumpers)
+    * [1.3 Plug-in Modules](#13-plug-in-modules)
+    * [1.4 Breakout Connectors](#14-breakout-connectors)
+  * [2 Development](#2-development)
+  * [3 Production History](#3-production-history)
+    * [3.1 v0.1.0-alpha-7b18788](#31-v010-alpha-7b18788)
+<!-- TOC -->
 
 </details>
 
