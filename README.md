@@ -56,7 +56,7 @@ User controllable hardware and/or firmware driven inputs.
 | MCU NRESET Switch       | SW1 | Generic 6 mm TH button, push to reset          |
 | MCU PA0 Switch          | SW2 | Generic 6 mm TH button, designed for SYS_WKUP0 |
 | MCU PC13 Switch         | SW3 | Generic 6 mm TH button, designed for SYS_WKUP1 |
-| SDIO Card Detect Jumper | J4  | Close for card in (pull-down on close)         |
+| SDIO Card Detect Jumper | J4  | Open for card in (pull-up on open)             |
 | BOOT0 Jumper            | J5  | Open for run flash memory (pull-down on open)  |
 
 ### 1.3 Plug-in Modules
