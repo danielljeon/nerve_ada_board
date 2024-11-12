@@ -15808,7 +15808,7 @@
 		)
 		(fp_arc
 			(start -4.68596 5.727284)
-			(mid -6.687149 3.1689)
+			(mid -6.687148 3.1689)
 			(end -7.4 0)
 			(stroke
 				(width 0.1)
@@ -18262,7 +18262,7 @@
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J6"
-			(at 0 -2.33 360)
+			(at 0 -2.33 0)
 			(layer "F.SilkS")
 			(uuid "3e17f603-7851-4f3d-944c-d39915a0f498")
 			(effects
@@ -18273,7 +18273,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 0 4.87 360)
+			(at 0 4.87 0)
 			(layer "F.Fab")
 			(uuid "3b44f5e7-3055-4a09-be23-271025f62000")
 			(effects
@@ -20089,7 +20089,7 @@
 			(at 13.25 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "e7ddcaa3-1d9c-4b50-9656-1416842e3cd2")
+			(uuid "34e97a66-ed5b-4a5a-b905-56a4552e62be")
 			(effects
 				(font
 					(size 1 1)
@@ -20101,7 +20101,7 @@
 			(at 0 17.4719 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "0c53e23c-957d-4c95-918d-e1437e185b25")
+			(uuid "af82af76-ffb4-4ee5-8df9-6d292a844c17")
 			(effects
 				(font
 					(size 1 1)
@@ -20114,7 +20114,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ad78a7eb-4d40-41d5-8b78-9533d54349a6")
+			(uuid "dabd2c9e-bd88-49b7-bbfa-797727cf8f3b")
 			(effects
 				(font
 					(size 1 1)
@@ -20127,7 +20127,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "467dd110-a036-4ad9-b5c8-961c0e5c5bcf")
+			(uuid "48ff97ce-243c-4475-872b-9b981c7a2e65")
 			(effects
 				(font
 					(size 1 1)
@@ -20140,7 +20140,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "429ea447-682e-41d8-a569-dfdc9976abd4")
+			(uuid "c0583474-fd13-484b-86fb-989697bf4c5f")
 			(effects
 				(font
 					(size 1 1)
@@ -20152,7 +20152,7 @@
 			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "54cf37b6-6fac-4857-8028-d5b536a33cc0")
+			(uuid "97aac019-4ccd-4d1a-9ad7-981a47e93291")
 			(effects
 				(font
 					(size 1 1)
@@ -20164,7 +20164,7 @@
 			(at 0 16.4719 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "0e2a9adf-1659-42d9-b040-055d772744a5")
+			(uuid "1a2662cd-8dd1-4bd1-8e80-f95a1136343b")
 			(effects
 				(font
 					(size 1 1)
@@ -20223,7 +20223,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "d13542b9-e7cc-4bb6-be9f-b2332265f6ae")
+			(uuid "aa021e76-302e-4f18-94ee-5917378b9533")
 		)
 		(fp_line
 			(start -4.5974 -16.4719)
@@ -20233,7 +20233,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "66bf38b9-9efa-4fef-bd21-ad52ea9e8fc5")
+			(uuid "9ee7d4fc-a4a7-4962-980c-12ef2876397b")
 		)
 		(fp_line
 			(start -4.5974 -16.4719)
@@ -20243,7 +20243,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "0e7fd48a-9cb4-4b4b-837b-d71af96f5bde")
+			(uuid "a2f2a833-80d0-4449-8cc3-58d5f258ed02")
 		)
 		(fp_line
 			(start 12.192 16.4719)
@@ -20253,7 +20253,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "d029f821-7646-4b00-9e16-4a5467f3a56c")
+			(uuid "ac19e8ae-880e-4456-8942-53b56793abc2")
 		)
 		(fp_line
 			(start -12.192 16.4719)
@@ -20263,7 +20263,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "0460d12f-ab4a-4aed-85e5-b6781ffffd28")
+			(uuid "f69cd818-74f0-42b2-949e-aac2aba7bb0d")
 		)
 		(fp_line
 			(start -12.192 16.4719)
@@ -20273,7 +20273,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "c5502b0d-8dbc-4a8f-ac4a-59ddfa1957e4")
+			(uuid "c21bb0e8-b436-49d8-84c5-709eebeaf07c")
 		)
 		(fp_circle
 			(center -13 -8.7481)
@@ -20284,7 +20284,7 @@
 			)
 			(fill solid)
 			(layer "F.SilkS")
-			(uuid "9d560efe-12da-4611-acc0-0d723642a760")
+			(uuid "26315b3b-9d0d-4054-8fbe-c024e59e2e95")
 		)
 		(fp_line
 			(start 5.8674 -17.7419)
@@ -20294,7 +20294,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "7065d8c9-c43f-4d3c-b721-827aec9b5ab3")
+			(uuid "41139b45-7f6f-4bca-9570-f4bc38ec78d5")
 		)
 		(fp_line
 			(start 5.8674 -17.7419)
@@ -20304,7 +20304,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "04a08b03-7c2c-447d-9f2f-643bbe622609")
+			(uuid "14dd8e8d-eeb7-4b79-8ced-4a0af3a05423")
 		)
 		(fp_line
 			(start -5.8674 -17.7419)
@@ -20314,7 +20314,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "07233baa-8485-486d-82b7-3b3f9592bf6e")
+			(uuid "4c6a2ab2-d075-4903-b6a9-4cd09e73561f")
 		)
 		(fp_line
 			(start 13.462 -11.2141)
@@ -20324,7 +20324,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "e44cd59f-a2bc-4960-8693-552bc76fca8e")
+			(uuid "db7a6854-cc8e-4ac5-ab23-1f328ce9684d")
 		)
 		(fp_line
 			(start -13.462 -11.2141)
@@ -20334,7 +20334,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "94197846-713f-4292-a758-8f390455c4a9")
+			(uuid "4a54dae7-8ce4-4164-8d8f-acf6abc81863")
 		)
 		(fp_line
 			(start 13.462 17.7419)
@@ -20344,13 +20344,13 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "5cd6c095-a79b-4de5-ac09-91f88d9b0886")
+			(uuid "9dd46e4f-88e5-432b-bbe1-2ba0ec0df749")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "3f710864-188d-443f-ac8f-2389acf4d0ca")
+			(uuid "22fd9e14-dfda-4279-90db-aea9adaac28e")
 			(effects
 				(font
 					(size 1 1)
@@ -20367,7 +20367,7 @@
 			(net 3 "+3V3")
 			(pinfunction "VCC")
 			(pintype "power_in")
-			(uuid "c49c32b0-c9e8-481e-acdf-d5908f3a4b61")
+			(uuid "244f5801-8f83-4c91-9772-4541bea98ffc")
 		)
 		(pad "2" thru_hole oval
 			(at -11 -6.7481 90)
@@ -20378,7 +20378,7 @@
 			(net 71 "/USART1_RX")
 			(pinfunction "DOUT/DIO13")
 			(pintype "bidirectional")
-			(uuid "457a0409-9ace-4b17-824b-6be32935dbfe")
+			(uuid "14af431b-0720-4c12-99cf-bada65d2ef4b")
 		)
 		(pad "3" thru_hole oval
 			(at -11 -4.7481 90)
@@ -20389,7 +20389,7 @@
 			(net 64 "/USART1_TX")
 			(pinfunction "DIN/~{CONFIG}/DIO14")
 			(pintype "bidirectional")
-			(uuid "404e9224-7bd7-4a61-80f3-c8030f0dbddd")
+			(uuid "1fa3420d-6cbb-4805-9ba9-c3e9d60728db")
 		)
 		(pad "4" thru_hole oval
 			(at -11 -2.7481 90)
@@ -20400,7 +20400,7 @@
 			(net 90 "unconnected-(U5-DIO12{slash}SPI_MISO-Pad4)")
 			(pinfunction "DIO12/SPI_MISO")
 			(pintype "bidirectional+no_connect")
-			(uuid "fa62a55a-01f8-4277-9c43-3d86dbd73abd")
+			(uuid "24d5c9fd-24f3-409d-8ae3-cf4787901651")
 		)
 		(pad "5" thru_hole oval
 			(at -11 -0.7481 90)
@@ -20411,7 +20411,7 @@
 			(net 69 "/GPIO_RADIO_RST")
 			(pinfunction "~{RESET}")
 			(pintype "input")
-			(uuid "728407a2-71e5-4908-8e2b-64ce0148fc3b")
+			(uuid "8d727f01-4ef7-4188-98bb-378957258038")
 		)
 		(pad "6" thru_hole oval
 			(at -11 1.2519 90)
@@ -20422,7 +20422,7 @@
 			(net 92 "unconnected-(U5-DIO10{slash}PWM0-Pad6)")
 			(pinfunction "DIO10/PWM0")
 			(pintype "bidirectional+no_connect")
-			(uuid "42504743-ebcf-46d7-b31d-2297077e2949")
+			(uuid "9cae32c8-f893-4214-bdf2-d27a918110a7")
 		)
 		(pad "7" thru_hole oval
 			(at -11 3.2519 90)
@@ -20433,7 +20433,7 @@
 			(net 97 "unconnected-(U5-DIO11{slash}PWM1-Pad7)")
 			(pinfunction "DIO11/PWM1")
 			(pintype "bidirectional+no_connect")
-			(uuid "00ee10a4-5e73-45d5-b404-90a81f98a32b")
+			(uuid "88dd42f9-14d5-41e8-90b2-2882d11a65f3")
 		)
 		(pad "8" thru_hole oval
 			(at -11 5.2519 90)
@@ -20444,7 +20444,7 @@
 			(net 93 "unconnected-(U5-Reserved-Pad8)")
 			(pinfunction "Reserved")
 			(pintype "no_connect")
-			(uuid "f411ac69-e791-4066-835e-ecc450d344a0")
+			(uuid "563b56c3-2dbb-4ffc-affa-5cae84b0818c")
 		)
 		(pad "9" thru_hole oval
 			(at -11 7.2519 90)
@@ -20455,7 +20455,7 @@
 			(net 99 "unconnected-(U5-~{DTR}{slash}SLEEP_RQ{slash}DIO8-Pad9)")
 			(pinfunction "~{DTR}/SLEEP_RQ/DIO8")
 			(pintype "bidirectional+no_connect")
-			(uuid "ccfc90ad-bcc6-4e2b-9162-2c8e84051eea")
+			(uuid "b8c40f24-9a0a-4699-93a9-04b4c9e2cd0a")
 		)
 		(pad "10" thru_hole oval
 			(at -11 9.2519 90)
@@ -20466,7 +20466,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(uuid "1ce5ce4b-eb07-4637-a484-fb56aa29718d")
+			(uuid "123914ba-a46c-4d1b-b17e-472fdec8b36e")
 		)
 		(pad "11" thru_hole oval
 			(at 11 9.2519 90)
@@ -20477,7 +20477,7 @@
 			(net 100 "unconnected-(U5-DIO4{slash}SPI_MOSI-Pad11)")
 			(pinfunction "DIO4/SPI_MOSI")
 			(pintype "bidirectional+no_connect")
-			(uuid "5e32d8a4-9703-4c54-a40e-ff7465252991")
+			(uuid "29298ec9-6ecf-4c2d-a182-75022268a9e0")
 		)
 		(pad "12" thru_hole oval
 			(at 11 7.2519 90)
@@ -20488,7 +20488,7 @@
 			(net 59 "/USART1_CTS")
 			(pinfunction "~{CTS}/DIO7")
 			(pintype "bidirectional")
-			(uuid "a885d5f5-40a5-4355-bf78-72d186bbc315")
+			(uuid "ff6e7e36-4d6f-46e3-b568-af7d511d0d95")
 		)
 		(pad "13" thru_hole oval
 			(at 11 5.2519 90)
@@ -20499,7 +20499,7 @@
 			(net 98 "unconnected-(U5-ON_~{SLEEP}{slash}DIO9-Pad13)")
 			(pinfunction "ON_~{SLEEP}/DIO9")
 			(pintype "output+no_connect")
-			(uuid "36357069-cc08-4f1c-a7a6-d7713db61a42")
+			(uuid "6d43e6aa-b3ff-45eb-997b-2fe39f7d05a1")
 		)
 		(pad "14" thru_hole oval
 			(at 11 3.2519 90)
@@ -20510,7 +20510,7 @@
 			(net 3 "+3V3")
 			(pinfunction "VREF")
 			(pintype "input")
-			(uuid "15474fc4-2ef0-4147-9182-03e1948354fb")
+			(uuid "44791a85-0950-4752-a2d2-cc0b6efea0f2")
 		)
 		(pad "15" thru_hole oval
 			(at 11 1.2519 90)
@@ -20521,7 +20521,7 @@
 			(net 96 "unconnected-(U5-Associate{slash}DIO5-Pad15)")
 			(pinfunction "Associate/DIO5")
 			(pintype "bidirectional+no_connect")
-			(uuid "29def1c5-121b-42b2-a089-7baf159fa86e")
+			(uuid "4269ebf8-921b-4e3c-9674-268c9c1e8593")
 		)
 		(pad "16" thru_hole oval
 			(at 11 -0.7481 90)
@@ -20532,7 +20532,7 @@
 			(net 78 "/USART1_RTS")
 			(pinfunction "~{RTS}/DIO6")
 			(pintype "bidirectional")
-			(uuid "7be6ee76-c289-43ff-b3a9-69700e13f50a")
+			(uuid "ca3495b0-4794-45fa-9f41-507e97f9d4d7")
 		)
 		(pad "17" thru_hole oval
 			(at 11 -2.7481 90)
@@ -20543,7 +20543,7 @@
 			(net 91 "unconnected-(U5-AD3{slash}DIO3{slash}SPI_~{SSEL}-Pad17)")
 			(pinfunction "AD3/DIO3/SPI_~{SSEL}")
 			(pintype "bidirectional+no_connect")
-			(uuid "2d324dfb-f83b-49d4-bad0-7f57d17b1216")
+			(uuid "468e78ab-e995-4ee3-9320-d0060ff7ec25")
 		)
 		(pad "18" thru_hole oval
 			(at 11 -4.7481 90)
@@ -20554,7 +20554,7 @@
 			(net 95 "unconnected-(U5-AD2{slash}DIO2{slash}SPI_CLK-Pad18)")
 			(pinfunction "AD2/DIO2/SPI_CLK")
 			(pintype "bidirectional+no_connect")
-			(uuid "cdf862d8-2a37-4c0b-be46-12201886476d")
+			(uuid "358d2495-9c6c-4919-9bb8-1be3a0905a7c")
 		)
 		(pad "19" thru_hole oval
 			(at 11 -6.7481 90)
@@ -20565,7 +20565,7 @@
 			(net 102 "unconnected-(U5-AD1{slash}DIO1{slash}SPI_~{ATTN}-Pad19)")
 			(pinfunction "AD1/DIO1/SPI_~{ATTN}")
 			(pintype "bidirectional+no_connect")
-			(uuid "8d9bc982-983b-4ee6-a008-858647c243c4")
+			(uuid "a096392e-fa6d-49c8-9c40-3c130cfb42c9")
 		)
 		(pad "20" thru_hole oval
 			(at 11 -8.7481 90)
@@ -20576,17 +20576,39 @@
 			(net 94 "unconnected-(U5-AD0{slash}DIO0-Pad20)")
 			(pinfunction "AD0/DIO0")
 			(pintype "bidirectional+no_connect")
-			(uuid "ed4bd01d-235c-4bc4-a964-241329118016")
+			(uuid "174466b5-5b6a-4594-9007-a932e1c3b2e1")
 		)
 		(model "${KIPRJMOD}/component_library/model_3d/digi_xbee/XBPro-whip.STEP"
 			(offset
-				(xyz -38.3032 -5.4991 41.91)
+				(xyz -38.3032 -5.4991 44.75)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
 				(xyz 90 0 180)
+			)
+		)
+		(model "${KIPRJMOD}/component_library/model_3d/digi_xbee/c-1-2314876-0-a-3d.stp"
+			(offset
+				(xyz 11 -0.25 4.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 90)
+			)
+		)
+		(model "${KIPRJMOD}/component_library/model_3d/digi_xbee/c-1-2314876-0-a-3d.stp"
+			(offset
+				(xyz -11 -0.25 4.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 90)
 			)
 		)
 	)
@@ -35058,7 +35080,7 @@
 				(xy 151.685977 96.202483) (xy 151.685971 96.202478) (xy 151.547592 96.126404) (xy 151.547593 96.126404)
 				(xy 151.394646 96.087133) (xy 151.236732 96.087133) (xy 151.236724 96.087134) (xy 151.147091 96.110148)
 				(xy 151.091019 96.102168) (xy 151.057013 96.056876) (xy 151.055377 96.028397) (xy 151.068308 95.934314)
-				(xy 151.065276 95.912257) (xy 151.079623 95.85747) (xy 151.120878 95.830333) (xy 151.184357 95.814688)
+				(xy 151.065276 95.912258) (xy 151.079623 95.85747) (xy 151.120878 95.830333) (xy 151.184357 95.814688)
 				(xy 151.324232 95.741275) (xy 151.442475 95.636522) (xy 151.532212 95.506515) (xy 151.533391 95.503408)
 				(xy 151.568078 95.411944) (xy 151.588229 95.35881) (xy 151.598062 95.277826) (xy 151.60727 95.201995)
 				(xy 151.60727 95.201988) (xy 151.58823 95.045183) (xy 151.588229 95.045174) (xy 151.575705 95.012151)
