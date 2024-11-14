@@ -117,52 +117,94 @@ CI/CD objectives:
 
 Commit: [7b18788](https://github.com/danielljeon/nerve_ada_board/commit/7b187884c03f280627d8443d2d9cc163f4b6956e).
 
+<details markdown="1">
+  <summary>Manufacturing & Assembly Details</summary>
+
 **Manufacturing Information:**
 
-1. Production date: 2024-10-22.
-    - Manufacturer: JLCPCB.
-    - Order: PCB, stencil.
-    - PCB specs (non-default):
-        - PCB quantity: 5.
-        - Surface Finish: LeadFree HASL.
-        - Impedance control stackup: `JLC041611-7628`.
-            - Outer Copper Weight: 1 oz.
-            - Inner Copper Weight: 1 oz.
-    - Stencil specs (non-default):
-        - Stencil quantity: 1.
-        - Custom size: 100 mm x 100 mm (matching PCB dimensions).
+Production date: 2024-10-22.
+
+- Manufacturer: JLCPCB.
+- Order: PCB, stencil.
+- PCB specs (non-default):
+    - PCB quantity: 5.
+    - Surface Finish: LeadFree HASL.
+    - Impedance control stackup: `JLC041611-7628`.
+        - Outer Copper Weight: 1 oz.
+        - Inner Copper Weight: 1 oz.
+- Stencil specs (non-default):
+    - Stencil quantity: 1.
+    - Custom size: 100 mm x 100 mm (matching PCB dimensions).
 
 **Assembly Information:**
 
-1. Assembly date: 2024-11-09.
-    - Assembled PCB quantity: 1.
-    - Components/DNP: All placed except for: GPS, WS2812B LEDs.
-    - Process:
-        - Stencil solder paste print by hand.
-            - Chip Quik TS391LT `Bi57.6Sn42Ag0.4`.
-        - Pick and place by hand.
-        - Reflow with oven.
-            - Roughly correct temperatures to solder paste docs.
-            - Approximately doubled soak time due to oven limitations.
+Assembly date: 2024-11-09 to 2024-11-13.
+
+- Assembled PCB quantity: 2.
+- Process:
+    - Stencil solder paste print by hand & soldering iron.
+        - Solder paste: Chip Quik TS391LT `Bi57.6Sn42Ag0.4`.
+    - SMD pick-and-place by hand.
+    - Reflow with oven.
+        - Roughly correct temperatures to solder paste docs.
+        - Approximately doubled soak time due to oven limitations.
+
+1. PCB 1 Notes:
+    - Components: All placed except for GPS.
     - Damage to though holes for connector J4 mostly on bottom side.
         - First assembly was unsatisfactory.
         - Attempt to remove solder to reassemble header pins resulted in damage
           from aggressive force with the soldering iron.
-        - Final result was satisfactory, but the board damage remains on bottom
+        - Final result was functional, but the board damage remains on bottom
           side.
             - Suggested correction: heat soak the board, note also left in board
               evaluation section of this writeup.
         - Continuity tests showed no issues after completion.
-    - Bridged pins on the U2 STM32.
+    - Bridged pins on the U2 (STM32F446RE).
         - Likely too much solder paste and less than ideal definition of the
           printed solder paste.
         - Resolved with flux and reheat with soldering iron as well as use of
           solder wick.
             - Suggested correction: Cleaner swipe of the stencil with less
               solder paste.
+2. PCB 2 Notes:
+    - Components: All placed.
+    - Misplacement of U2 (STM32F446RE).
+        - Component shifted seemingly during reflow, some sides of the MCU had
+          short or unconnected pins.
+        - There was likely too much solder as well as potential misalignment
+          during the pick-and-place by hand.
+        - Attempts were made to reposition the component.
+        - Some solder mask was removed near the pads, however no significant
+          functional concerns were visible.
+        - In order to limit potential damage to the board or components (
+          particularly the expensive GPS module), the component was removed.
+        - No pad damage was visible.
+        - A replacement component was hand soldered with a soldering iron.
+            - Suggested correction: Improve solder paste printing (again) and
+              better hand placement. If too much paste was visible retry before
+              any reflow. Perhaps, even holding the component in position with
+              thin strips of kapton tape.
+    - Bridged pins on the U9, U10 (TXB0104QPWRQ1).
+        - Same details as U2 on PCB 1 (see above).
+    - U4 GPS module solder joints are not visible (pads under component), but a
+      continuity test of nets in every combination pair showed no shorts.
+
+</details>
+
 
 **Board Evaluation:**
 
-- Large ground planes, makes it difficult to adjust through hole components (
-  with ground pin) if required.
-    - Requires heat soaked board or uncomfortably high iron temps.
+- Large planes, especially ground. It is difficult to adjust through hole
+  components that have ground pin(s).
+    - Requires heat soaked board or potentially risky soldering iron
+      temperatures.
+- Some components such as resistors or capacitors are very close to through hole
+  header pin connectors/jumpers.
+    - Not super difficult to deal with, but something to keep in mind.
+- The XBee Pro 900HP can cause clearance issues when trying to press-release the
+  nearby TC2050-IDC's plastic clips.
+- The Molex 472192001 hinge microSD card slot is functional, but slightly
+  blocked by the Adafruit TJA1051T/3 breakout board.
+    - This Would be easily resolved by implementing CAN circuit/components
+      directly onto the PCB.
