@@ -21515,8 +21515,8 @@
 			(justify left)
 		)
 	)
-	(gr_text "PC3_{5V}"
-		(at 122.025 140 -75)
+	(gr_text "PC2_{5V}"
+		(at 122.025 140 285)
 		(layer "F.SilkS")
 		(uuid "6f107e76-01d9-422b-b8c4-91bea28f1ffe")
 		(effects
@@ -21528,8 +21528,8 @@
 			(justify left)
 		)
 	)
-	(gr_text "PC2_{5V}"
-		(at 124.565 140 -75)
+	(gr_text "PC3_{5V}"
+		(at 124.565 140 285)
 		(layer "F.SilkS")
 		(uuid "75f8f8aa-5e5c-4e9c-b3fa-9115cefc44c1")
 		(effects
