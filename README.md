@@ -6,8 +6,6 @@ Nerve dev board using off-the-shelf modules.
 
 ![nerve_ada_board.png](docs/nerve_ada_board.png)
 
-- _Picture: Missing 3D models for 5708 TJA1051T/3 modules._
-
 ---
 
 <details markdown="1">
