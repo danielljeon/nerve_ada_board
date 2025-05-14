@@ -4,16 +4,22 @@
 
 Nerve dev board using off-the-shelf modules.
 
-> **Note: This design is now no longer under active development. The final
-changes to the main branch are published as release tagged `v0.1.0-beta`,
-see the release notes: [1.1 v0.1.0-beta](#11-v010-beta).**
+> **Note: This design is now no longer under active development.** The final
+> changes to the main branch are published as release tagged `v0.1.0-beta`, see
+> the release notes: [1.1 v0.1.0-beta](#11-v010-beta).
+>
+> Successor: [`nerve_pcb`](https://github.com/danielljeon/nerve_pcb).
 
 > 💡**Hint:** To clone this repository use:
 > ```shell
 > git clone --recursive
 > ```
 
-![nerve_ada_board.png](docs/nerve_ada_board.png)
+---
+
+|                   KiCad Render                   |                   `v0.1.0-alpha-7b18788`                   |
+|:------------------------------------------------:|:----------------------------------------------------------:|
+| ![nerve_ada_board.png](docs/nerve_ada_board.png) | ![v0_1_0-alpha-7b18788.jpg](docs/v0_1_0-alpha-7b18788.jpg) |
 
 ---
 
@@ -56,6 +62,10 @@ changes expected.
 During the development of the new design, several hardware and PCB issues were
 identified. Although this `README.md` will no longer be updated, the following
 sections document the known issues as of the final release.
+
+`v0.1.0-beta` is a slightly improved and updated version of an earlier
+production run using `v0.1.0-alpha-7b18788`,
+see [4.1 v0.1.0-alpha-7b18788](#41-v010-alpha-7b18788).
 
 #### 1.1.1 LSE Crystal
 
@@ -189,6 +199,9 @@ git submodule update --remote --merge
 
 ### 4.1 v0.1.0-alpha-7b18788
 
+> Note: This production run was not marked as a (pre)release due to very high
+> probability of bring-up issues as it was one of my first PCB designs.
+
 Commit: [7b18788](https://github.com/danielljeon/nerve_ada_board/commit/7b187884c03f280627d8443d2d9cc163f4b6956e).
 
 <details markdown="1">
@@ -265,7 +278,6 @@ Assembly date: 2024-11-09 to 2024-11-13.
       continuity test of nets in every combination pair showed no shorts.
 
 </details>
-
 
 **Board Evaluation:**
 
